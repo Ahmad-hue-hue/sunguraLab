@@ -58,47 +58,36 @@ export default function ContactPage() {
       {/* ── Contact details ─────────────────────────────────────────── */}
       <section className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-6xl px-6 sm:px-10">
-          <div className="grid gap-16 sm:grid-cols-3">
+          <div className="flex flex-wrap gap-8 sm:gap-12">
             <Reveal>
-              <div>
-                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-zinc-100 text-zinc-600">
-                  <HugeiconsIcon icon={Mail01Icon} size={18} />
+              <a
+                href={`mailto:${company.email}`}
+                className="group flex items-center gap-3 transition"
+              >
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-zinc-100 text-zinc-600 transition group-hover:bg-zinc-900 group-hover:text-white">
+                  <HugeiconsIcon icon={Mail01Icon} size={17} />
                 </div>
-                <p className="mt-4 text-[0.68rem] font-semibold uppercase tracking-[0.12em] text-zinc-400">
-                  Email
-                </p>
-                <a
-                  href={`mailto:${company.email}`}
-                  className="mt-1 block font-semibold text-zinc-900 transition hover:text-green-700"
-                >
+                <span className="font-semibold text-zinc-900 transition group-hover:text-zinc-600">
                   {company.email}
-                </a>
-              </div>
+                </span>
+              </a>
             </Reveal>
 
             <Reveal delay={0.07}>
-              <div>
-                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-zinc-100 text-zinc-600">
-                  <HugeiconsIcon icon={Location01Icon} size={18} />
+              <div className="flex items-center gap-3">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-zinc-100 text-zinc-600">
+                  <HugeiconsIcon icon={Location01Icon} size={17} />
                 </div>
-                <p className="mt-4 text-[0.68rem] font-semibold uppercase tracking-[0.12em] text-zinc-400">
-                  Location
-                </p>
-                <p className="mt-1 font-semibold text-zinc-900">{company.location}</p>
-                <p className="text-sm text-zinc-500">{company.locationNote}</p>
+                <span className="font-semibold text-zinc-900">{company.location}</span>
               </div>
             </Reveal>
 
             <Reveal delay={0.14}>
-              <div>
-                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-zinc-100 text-zinc-600">
-                  <HugeiconsIcon icon={Clock01Icon} size={18} />
+              <div className="flex items-center gap-3">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-zinc-100 text-zinc-600">
+                  <HugeiconsIcon icon={Clock01Icon} size={17} />
                 </div>
-                <p className="mt-4 text-[0.68rem] font-semibold uppercase tracking-[0.12em] text-zinc-400">
-                  Delivery
-                </p>
-                <p className="mt-1 font-semibold text-zinc-900">1–4 weeks per project</p>
-                <p className="text-sm text-zinc-500">Fixed price, no surprises</p>
+                <span className="font-semibold text-zinc-900">1–4 weeks per project</span>
               </div>
             </Reveal>
           </div>
