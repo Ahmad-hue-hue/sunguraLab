@@ -79,8 +79,8 @@ export default function ContactPage() {
           <Reveal delay={0.1}>
             <div className="relative aspect-[3/4] overflow-hidden rounded-2xl">
               <Image
-                src="/images/meeting.jpg"
-                alt="Team meeting"
+                src="/images/contact-meeting.jpg"
+                alt="Clean professional workspace"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover"

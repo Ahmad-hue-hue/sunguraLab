@@ -5,6 +5,7 @@ import { ArrowRight01Icon } from "@hugeicons/core-free-icons";
 import { Section, SectionHeading } from "@/components/ui/Section";
 import { Reveal } from "@/components/motion/Reveal";
 import { BentoShowcase } from "@/components/sections/BentoShowcase";
+import { TrustedBy } from "@/components/sections/TrustedBy";
 import { services, stats, whyUs, targetClients } from "@/data/site";
 
 export default function HomePage() {
@@ -55,6 +56,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ─── Trusted by ──────────────────────────────────────────── */}
+      <TrustedBy />
 
       {/* ─── Stats — Apple horizontal bar ────────────────────────── */}
       <section className="border-y border-zinc-200 bg-white">

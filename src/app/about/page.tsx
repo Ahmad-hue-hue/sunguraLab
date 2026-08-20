@@ -28,8 +28,8 @@ export default function AboutPage() {
         <Reveal delay={0.15} className="mt-16">
           <div className="relative aspect-[21/9] w-full overflow-hidden">
             <Image
-              src="/images/ar-vr.jpg"
-              alt="AI technology"
+              src="/images/about-office.jpg"
+              alt="Modern office workspace"
               fill
               sizes="100vw"
               className="object-cover opacity-60"
@@ -52,10 +52,10 @@ export default function AboutPage() {
               small, you always talk to the people actually building.
             </p>
             <Link
-              href="/team"
+              href="/contact"
               className="mt-8 inline-flex items-center gap-1.5 text-sm font-semibold text-zinc-900 underline-offset-4 hover:underline"
             >
-              Meet the team <HugeiconsIcon icon={ArrowRight01Icon} size={14} />
+              Start a project <HugeiconsIcon icon={ArrowRight01Icon} size={14} />
             </Link>
           </Reveal>
           <Reveal delay={0.1}>
