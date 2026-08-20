@@ -158,13 +158,10 @@ export default function HomePage() {
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <div className="flex-1">
-                  <div className="flex flex-wrap items-baseline justify-between gap-3">
+                  <div>
                     <h3 className="font-display text-xl font-semibold text-foreground">
                       {service.name}
                     </h3>
-                    <span className="font-mono text-sm font-bold text-green">
-                      {service.price}
-                    </span>
                   </div>
                   <p className="mt-2 leading-relaxed text-muted">
                     {service.short}

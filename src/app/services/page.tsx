@@ -4,7 +4,7 @@ import { Section, SectionHeading, Eyebrow } from "@/components/ui/Section";
 import { Reveal } from "@/components/motion/Reveal";
 import { Timeline } from "@/components/ui/Timeline";
 import { CTABand } from "@/components/sections/CTABand";
-import { services, retainer, pricingNote, process } from "@/data/site";
+import { services, process } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Services & Pricing",
@@ -45,13 +45,10 @@ export default function ServicesPage() {
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <div className="flex-1">
-                  <div className="flex flex-wrap items-baseline justify-between gap-3">
+                  <div>
                     <h3 className="font-display text-2xl font-semibold text-foreground">
                       {service.name}
                     </h3>
-                    <span className="font-mono text-base font-bold text-green">
-                      {service.price}
-                    </span>
                   </div>
                   <p className="mt-3 max-w-2xl leading-relaxed text-muted">
                     {service.description}
@@ -65,53 +62,6 @@ export default function ServicesPage() {
             </Reveal>
           ))}
         </ul>
-      </Section>
-
-      {/* pricing table */}
-      <Section className="bg-surface" id="pricing">
-        <SectionHeading
-          eyebrow="Transparent pricing"
-          title="Fixed prices, known upfront."
-          intro={pricingNote}
-        />
-        <Reveal className="mt-12">
-          <table className="w-full text-left">
-            <thead>
-              <tr className="border-b border-border text-sm">
-                <th className="py-4 font-display font-semibold text-foreground">
-                  Service
-                </th>
-                <th className="py-4 text-right font-display font-semibold text-foreground">
-                  Fixed price
-                </th>
-              </tr>
-            </thead>
-            <tbody className="text-sm">
-              {services.map((s) => (
-                <tr
-                  key={s.slug}
-                  className="border-b border-border last:border-0"
-                >
-                  <td className="py-4 text-foreground">{s.name}</td>
-                  <td className="py-4 text-right font-semibold text-green">
-                    {s.price}
-                  </td>
-                </tr>
-              ))}
-              <tr className="border-t border-border">
-                <td className="py-4 font-medium text-foreground">
-                  {retainer.name}
-                  <span className="mt-1 block text-xs font-normal text-muted">
-                    {retainer.description}
-                  </span>
-                </td>
-                <td className="py-4 text-right font-semibold text-green">
-                  {retainer.price}
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </Reveal>
       </Section>
 
       {/* process */}
