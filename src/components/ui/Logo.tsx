@@ -63,7 +63,7 @@ export function Wordmark({
       )}
     >
       <span className={onDark ? "text-white" : "text-foreground"}>Sungura</span>
-      <span className="italic text-green">Labs</span>
+      <span className="font-semibold text-green">Labs</span>
     </span>
   );
 }

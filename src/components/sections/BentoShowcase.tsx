@@ -5,7 +5,6 @@ import {
   Robot01Icon,
   DashboardBrowsingIcon,
   Brain02Icon,
-  SourceCodeIcon,
 } from "@hugeicons/core-free-icons";
 import { BentoGrid, BentoGridItem } from "@/components/ui/aceternity/bento-grid";
 
@@ -68,14 +67,6 @@ const tiles = [
     src: "/images/automation.jpg",
     alt: "Cascading green code",
     icon: Brain02Icon,
-    span: "md:col-span-1",
-  },
-  {
-    title: "Custom web & SaaS builds",
-    description: "Full products and API integrations on a production stack.",
-    src: "/images/code.jpg",
-    alt: "Source code on a laptop",
-    icon: SourceCodeIcon,
     span: "md:col-span-1",
   },
 ];

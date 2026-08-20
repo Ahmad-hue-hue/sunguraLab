@@ -16,14 +16,14 @@ export const metadata: Metadata = {
 export default function TeamPage() {
   return (
     <>
-      <section className="relative overflow-hidden border-b border-border bg-surface">
+      <section className="relative overflow-hidden border-b border-border">
         <div className="constellation absolute inset-0 opacity-50" />
         <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-24">
           <Reveal className="max-w-3xl">
             <Eyebrow>The team</Eyebrow>
             <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.02] tracking-[-0.02em] text-foreground sm:text-5xl lg:text-6xl">
               Two builders.{" "}
-              <em className="font-light italic text-green">Direct</em>{" "}
+              <span className="font-medium text-green">Direct</span>{" "}
               communication.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
@@ -39,7 +39,7 @@ export default function TeamPage() {
           {team.map((member, i) => (
             <Reveal key={member.name} delay={i * 0.1}>
               <CardContainer className="h-full">
-                <div className="relative h-full overflow-hidden rounded-3xl border border-border bg-card p-8">
+                <div className="relative h-full overflow-hidden rounded-3xl bg-surface p-8 shadow-lg">
                   <div className="constellation absolute inset-0 opacity-40" />
                   <div className="relative">
                     <CardItem translateZ={40}>
@@ -65,7 +65,7 @@ export default function TeamPage() {
                         {member.focus.map((f) => (
                           <li
                             key={f}
-                            className="inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3 py-1.5 text-xs font-medium text-foreground"
+                            className="inline-flex items-center gap-1.5 rounded-full bg-background px-3 py-1.5 text-xs font-medium text-foreground"
                           >
                             <HugeiconsIcon
                               icon={CheckmarkCircle02Icon}
@@ -85,7 +85,7 @@ export default function TeamPage() {
         </div>
 
         <Reveal delay={0.15} className="mt-10">
-          <div className="rounded-2xl border border-dashed border-border bg-surface p-8 text-center">
+          <div className="border-t border-border pt-10 text-center">
             <p className="font-display text-lg font-semibold text-foreground">
               Growing carefully.
             </p>

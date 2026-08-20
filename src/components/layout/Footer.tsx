@@ -15,7 +15,7 @@ export function Footer() {
         {/* oversized tagline */}
         <div className="flex items-center gap-5">
           <LogoMark size={44} />
-          <p className="font-display text-3xl font-light italic tracking-tight text-white sm:text-4xl">
+          <p className="font-display text-3xl font-medium tracking-tight text-white sm:text-4xl">
             Build. Connect. Grow.
           </p>
         </div>

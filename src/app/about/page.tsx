@@ -25,7 +25,7 @@ export default function AboutPage() {
             <Eyebrow>Who we are</Eyebrow>
             <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.02] tracking-[-0.02em] text-foreground sm:text-5xl lg:text-6xl">
               A small studio that runs engagements{" "}
-              <em className="font-light italic text-green">end-to-end</em>.
+              <span className="font-medium text-green">end-to-end</span>.
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-muted">
               {company.name} was founded by two builders combining hands-on
@@ -47,7 +47,7 @@ export default function AboutPage() {
             </div>
           </Reveal>
           <Reveal delay={0.15}>
-            <div className="relative aspect-square overflow-hidden rounded-3xl border border-border">
+            <div className="relative aspect-square overflow-hidden rounded-3xl shadow-xl">
               <Image
                 src="/images/ar-vr.jpg"
                 alt="A person interacting with AI through a VR interface"
@@ -64,17 +64,17 @@ export default function AboutPage() {
       <Section>
         <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
           <Reveal>
-            <div className="rounded-3xl bg-charcoal p-8 text-white">
-              <p className="font-display text-2xl font-semibold leading-snug">
+            <blockquote className="border-l-2 border-gold pl-8">
+              <p className="font-display text-2xl font-semibold leading-snug text-foreground">
                 &ldquo;The biggest blocker to AI adoption for African businesses
                 isn&apos;t the model — it&apos;s data fragmented across CRM,
                 WhatsApp groups and Excel, with no single source of truth.&rdquo;
               </p>
-              <p className="mt-6 text-sm text-white/60">
+              <p className="mt-6 text-sm text-muted">
                 So we start every build by mapping your real records — then
                 ground the AI in them.
               </p>
-            </div>
+            </blockquote>
           </Reveal>
           <div>
             <SectionHeading
@@ -92,10 +92,10 @@ export default function AboutPage() {
           eyebrow="What sets us apart"
           title="Why clients choose SunguraLabs."
         />
-        <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {whyUs.map((item, i) => (
             <Reveal key={item.title} delay={(i % 3) * 0.08}>
-              <div className="h-full rounded-2xl border border-border bg-card p-7">
+              <div>
                 <h3 className="font-display font-semibold text-foreground">
                   {item.title}
                 </h3>
@@ -110,10 +110,10 @@ export default function AboutPage() {
 
       {/* context stats */}
       <Section>
-        <div className="grid gap-6 sm:grid-cols-3">
+        <div className="grid divide-y border-y border-border sm:grid-cols-3 sm:divide-x sm:divide-y-0 divide-border">
           {stats.map((s, i) => (
             <Reveal key={s.value} delay={i * 0.08}>
-              <div className="h-full rounded-2xl border border-border bg-card p-7">
+              <div className="h-full p-8">
                 <p className="font-display text-4xl font-extrabold text-green">
                   {s.value}
                 </p>

@@ -50,9 +50,9 @@
   --color-border: var(--border);
   --color-border-strong: var(--border-strong);
 
-  --font-sans: var(--font-hanken);
-  --font-display: var(--font-fraunces);
-  --font-mono: var(--font-space-mono);
+  --font-sans: var(--font-instrument);
+  --font-display: var(--font-bricolage);
+  --font-mono: var(--font-instrument);
 }
 
 * {
@@ -71,12 +71,13 @@ h1,
 h2,
 h3,
 .font-display {
-  font-family: var(--font-display), Georgia, serif;
+  font-family: var(--font-display), system-ui, sans-serif;
   font-optical-sizing: auto;
+  letter-spacing: -0.02em;
 }
 
 .font-mono {
-  font-family: var(--font-mono), ui-monospace, monospace;
+  font-family: var(--font-sans), system-ui, sans-serif;
 }
 
 ::selection {
@@ -96,11 +97,11 @@ h3,
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-/* ---- Signature detail: mono technical label ---- */
+/* ---- Understated micro-label ---- */
 .label-mono {
-  font-family: var(--font-mono), ui-monospace, monospace;
+  font-family: var(--font-sans), system-ui, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.2em;
   font-size: 0.72rem;
 }
 
@@ -132,9 +133,8 @@ h3,
 
 /* ---- Oversized magazine section index numeral ---- */
 .index-numeral {
-  font-family: var(--font-display), Georgia, serif;
-  font-weight: 300;
-  font-style: italic;
+  font-family: var(--font-display), system-ui, sans-serif;
+  font-weight: 400;
   line-height: 0.8;
   color: var(--gold);
 }
