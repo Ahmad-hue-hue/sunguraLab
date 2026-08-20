@@ -51,13 +51,6 @@ export default function ContactPage() {
               A free 30–45 min call to cover your workflow, data sources, and what you
               want to automate. You leave with a fixed-price quote.
             </p>
-            <a
-              href={`mailto:${company.email}`}
-              className="mt-8 inline-flex items-center gap-3 rounded-full bg-white px-8 py-3.5 text-sm font-bold text-zinc-900 transition hover:bg-zinc-200"
-            >
-              <HugeiconsIcon icon={Mail01Icon} size={16} />
-              {company.email}
-            </a>
           </Reveal>
         </div>
       </section>
