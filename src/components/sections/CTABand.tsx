@@ -1,6 +1,7 @@
 import { ButtonLink } from "@/components/ui/Button";
 import { Reveal } from "@/components/motion/Reveal";
 import { LogoMark } from "@/components/ui/Logo";
+import { BackgroundBeams } from "@/components/ui/aceternity/background-beams";
 
 /**
  * Dark green/charcoal call-to-action band — the one place the site leans into
@@ -16,7 +17,8 @@ export function CTABand({
   return (
     <section className="px-5 py-16 sm:px-8 sm:py-20">
       <div className="relative mx-auto max-w-6xl overflow-hidden rounded-2xl bg-charcoal px-6 py-20 text-center sm:px-12">
-        <div className="constellation absolute inset-0 opacity-30" />
+        <BackgroundBeams />
+        <div className="constellation absolute inset-0 opacity-20" />
         <div className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-green/25 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-16 -left-16 h-56 w-56 rounded-full bg-gold/15 blur-3xl" />
         <Reveal className="relative">

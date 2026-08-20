@@ -8,6 +8,7 @@ import { Reveal } from "@/components/motion/Reveal";
 import { Marquee } from "@/components/ui/Marquee";
 import { LogoMark } from "@/components/ui/Logo";
 import { ServiceCard } from "@/components/sections/ServiceCard";
+import { BentoShowcase } from "@/components/sections/BentoShowcase";
 import { CTABand } from "@/components/sections/CTABand";
 import {
   company,
@@ -185,11 +186,22 @@ export default function HomePage() {
         </div>
       </Section>
 
+      {/* ============ Bento showcase (Aceternity) ============ */}
+      <Section>
+        <SectionHeading
+          index="02"
+          eyebrow="What we build"
+          title="A studio's worth of AI, in one place."
+          intro="From conversational AI to custom SaaS — each build grounded in the systems and data you already run on."
+        />
+        <BentoShowcase />
+      </Section>
+
       {/* ============ Services preview ============ */}
       <Section className="bg-surface">
         <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
           <SectionHeading
-            index="02"
+            index="03"
             eyebrow="What we do"
             title="Five ways we put AI to work — plus custom builds."
             intro="Productized, fixed-price services scoped for what generic AI tools can't do: deep integration with your actual systems."
@@ -221,7 +233,7 @@ export default function HomePage() {
       {/* ============ Who we help ============ */}
       <Section>
         <SectionHeading
-          index="03"
+          index="04"
           eyebrow="Who we help"
           title="Built for East African SMEs and early-stage founders."
         />
@@ -242,7 +254,7 @@ export default function HomePage() {
       {/* ============ Why us ============ */}
       <Section className="bg-surface">
         <SectionHeading
-          index="04"
+          index="05"
           eyebrow="Why work with us"
           title="Agency-grade AI, without the agency overhead."
         />
