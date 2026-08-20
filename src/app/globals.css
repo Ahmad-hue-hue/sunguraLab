@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/*
+  SunguraLabs brand system — light & clean, green + gold accents from the logo.
+  Base white, deep forest green primary, bright accent green, gold used sparingly,
+  charcoal ink for text.
+*/
+:root {
+  --background: #ffffff;
+  --surface: #f7f8f6;
+  --surface-2: #eef1ec;
+  --foreground: #1b2420; /* charcoal ink */
+  --muted: #5b6660;
+
+  --green: #1e5631; /* deep forest */
+  --green-600: #23663a;
+  --green-500: #2f8047;
+  --green-accent: #3fa34d; /* brighter accent */
+  --green-soft: #eaf3ec;
+
+  --gold: #c9a227;
+  --gold-soft: #f3ecd4;
+
+  --charcoal: #141a17; /* dark bands / hero-on-dark */
+  --border: #e4e8e3;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+
+  --color-green: var(--green);
+  --color-green-600: var(--green-600);
+  --color-green-500: var(--green-500);
+  --color-green-accent: var(--green-accent);
+  --color-green-soft: var(--green-soft);
+
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+
+  --color-charcoal: var(--charcoal);
+  --color-border: var(--border);
+
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-sora);
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--green-soft);
+  color: var(--green);
+}
+
+/* Thin gold divider used to echo the logo tagline rule "BUILD · CONNECT · GROW". */
+.rule-gold {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--gold) 20%,
+    var(--gold) 80%,
+    transparent
+  );
+}
+
+/* Subtle constellation dot-grid background flourish. */
+.constellation {
+  background-image: radial-gradient(
+    rgba(63, 163, 77, 0.18) 1px,
+    transparent 1px
+  );
+  background-size: 26px 26px;
+}
+
+@keyframes scroll-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - 0.5rem));
+  }
+}
+
+.animate-scroll-x {
+  animation: scroll-x var(--duration, 40s) linear infinite;
+}
