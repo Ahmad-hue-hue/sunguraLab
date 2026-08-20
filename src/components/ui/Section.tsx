@@ -12,27 +12,16 @@ export function Section({
   id?: string;
 }) {
   return (
-    <section id={id} className={cn("py-20 sm:py-28", className)}>
+    <section id={id} className={cn("py-20 sm:py-24", className)}>
       <div className="mx-auto max-w-6xl px-5 sm:px-8">{children}</div>
     </section>
   );
 }
 
-export function Eyebrow({
-  children,
-  onDark = false,
-}: {
-  children: ReactNode;
-  onDark?: boolean;
-}) {
+export function Eyebrow({ children, className }: { children: ReactNode; className?: string }) {
   return (
-    <span
-      className={cn(
-        "label-mono inline-flex items-center gap-2.5 font-bold",
-        onDark ? "text-gold-bright" : "text-green",
-      )}
-    >
-      <span className="h-1.5 w-1.5 rotate-45 bg-gold" />
+    <span className={cn("label-mono inline-flex items-center gap-2 text-green", className)}>
+      <span className="h-px w-4 bg-green/50" />
       {children}
     </span>
   );
@@ -44,44 +33,24 @@ export function SectionHeading({
   title,
   intro,
   align = "left",
-  onDark = false,
 }: {
   eyebrow?: string;
-  /** Magazine-style section index, e.g. "01". */
   index?: string;
   title: ReactNode;
   intro?: ReactNode;
   align?: "left" | "center";
-  onDark?: boolean;
 }) {
   return (
     <Reveal className={cn("max-w-2xl", align === "center" && "mx-auto text-center")}>
-      <div
-        className={cn(
-          "flex items-center gap-4",
-          align === "center" && "justify-center",
-        )}
-      >
-        {index && (
-          <span className="index-numeral text-4xl sm:text-5xl">{index}</span>
-        )}
-        {eyebrow && <Eyebrow onDark={onDark}>{eyebrow}</Eyebrow>}
+      <div className={cn("flex items-center gap-3", align === "center" && "justify-center")}>
+        {index && <span className="index-numeral font-mono text-3xl">{index}</span>}
+        {eyebrow && <Eyebrow>{eyebrow}</Eyebrow>}
       </div>
-      <h2
-        className={cn(
-          "mt-5 font-display text-[2rem] font-semibold leading-[1.08] tracking-[-0.01em] sm:text-[2.75rem]",
-          onDark ? "text-white" : "text-foreground",
-        )}
-      >
+      <h2 className="mt-4 font-display text-3xl font-extrabold leading-tight tracking-tight text-foreground sm:text-4xl">
         {title}
       </h2>
       {intro && (
-        <p
-          className={cn(
-            "mt-5 text-base leading-relaxed sm:text-lg",
-            onDark ? "text-white/70" : "text-muted",
-          )}
-        >
+        <p className="mt-4 text-base leading-relaxed text-muted">
           {intro}
         </p>
       )}

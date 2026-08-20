@@ -1,64 +1,56 @@
 @import "tailwindcss";
 
-/*
-  SunguraLabs — "Editorial tech studio, Serengeti paper".
-  Warm paper base, deep forest green as the dominant, gold as the sharp accent,
-  Fraunces serif display + Hanken Grotesk body + Space Mono technical labels.
-*/
 :root {
-  /* Slate-based neutrals */
-  --background: #f8fafc;   /* slate-50  */
-  --surface:    #f1f5f9;   /* slate-100 */
-  --surface-2:  #e2e8f0;   /* slate-200 */
-  --card:       #ffffff;   /* white     */
-  --foreground: #0f172a;   /* slate-900 */
-  --muted:      #64748b;   /* slate-500 */
-  --border:     #e2e8f0;   /* slate-200 */
-  --border-strong: #cbd5e1;/* slate-300 */
-  --charcoal:   #1e293b;   /* slate-800 */
+  --background: #ffffff;
+  --surface:    #f4f4f5;   /* zinc-100 */
+  --surface-2:  #e4e4e7;   /* zinc-200 */
+  --card:       #fafafa;   /* zinc-50  */
+  --foreground: #09090b;   /* zinc-950 */
+  --muted:      #71717a;   /* zinc-500 */
+  --border:     #e4e4e7;   /* zinc-200 */
+  --border-strong: #d4d4d8;/* zinc-300 */
 
-  /* Brand accents — unchanged */
-  --green:        #1d4d2b;
-  --green-600:    #235c34;
-  --green-500:    #2c7541;
-  --green-accent: #45a35a;
-  --green-soft:   #dcfce7;
+  /* Brand greens */
+  --green:        #059669;  /* emerald-600  — light bg use */
+  --green-dark:   #064e3b;  /* emerald-950  — decorative  */
+  --green-accent: #34d399;  /* emerald-400  — dark bg use */
+  --green-soft:   #d1fae5;  /* emerald-100  */
 
-  --gold:       #b0842a;
-  --gold-bright:#d0a53a;
-  --gold-soft:  #fef9c3;
+  /* Dark sections */
+  --charcoal: #09090b;      /* zinc-950     */
+
+  /* Accent */
+  --gold:       #d97706;    /* amber-600    */
+  --gold-bright:#f59e0b;    /* amber-500    */
+  --gold-soft:  #fef3c7;    /* amber-100    */
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-surface: var(--surface);
-  --color-surface-2: var(--surface-2);
-  --color-card: var(--card);
-  --color-foreground: var(--foreground);
-  --color-muted: var(--muted);
-
-  --color-green: var(--green);
-  --color-green-600: var(--green-600);
-  --color-green-500: var(--green-500);
-  --color-green-accent: var(--green-accent);
-  --color-green-soft: var(--green-soft);
-
-  --color-gold: var(--gold);
-  --color-gold-bright: var(--gold-bright);
-  --color-gold-soft: var(--gold-soft);
-
-  --color-charcoal: var(--charcoal);
-  --color-border: var(--border);
+  --color-background:    var(--background);
+  --color-surface:       var(--surface);
+  --color-surface-2:     var(--surface-2);
+  --color-card:          var(--card);
+  --color-foreground:    var(--foreground);
+  --color-muted:         var(--muted);
+  --color-border:        var(--border);
   --color-border-strong: var(--border-strong);
 
-  --font-sans: var(--font-instrument);
-  --font-display: var(--font-bricolage);
-  --font-mono: var(--font-instrument);
+  --color-green:         var(--green);
+  --color-green-dark:    var(--green-dark);
+  --color-green-accent:  var(--green-accent);
+  --color-green-soft:    var(--green-soft);
+  --color-charcoal:      var(--charcoal);
+
+  --color-gold:          var(--gold);
+  --color-gold-bright:   var(--gold-bright);
+  --color-gold-soft:     var(--gold-soft);
+
+  --font-sans:    var(--font-dm);
+  --font-display: var(--font-syne);
+  --font-mono:    var(--font-jb);
 }
 
-* {
-  border-color: var(--border);
-}
+* { border-color: var(--border); }
 
 body {
   background: var(--background);
@@ -68,113 +60,88 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-h1,
-h2,
-h3,
-.font-display {
+h1, h2, h3, h4, .font-display {
   font-family: var(--font-display), system-ui, sans-serif;
-  font-optical-sizing: auto;
-  letter-spacing: -0.02em;
 }
 
-.font-mono {
-  font-family: var(--font-sans), system-ui, sans-serif;
+.font-mono, code {
+  font-family: var(--font-mono), monospace;
 }
 
 ::selection {
   background: var(--green);
-  color: var(--background);
+  color: #fff;
 }
 
-/* ---- Film grain overlay: gives the paper texture and kills the flat SaaS look ---- */
-.grain::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 60;
-  pointer-events: none;
-  opacity: 0.05;
-  mix-blend-mode: multiply;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+/* ── Dot grid — light sections ── */
+.dot-grid {
+  background-image: radial-gradient(circle, rgba(113,113,122,0.15) 1px, transparent 1px);
+  background-size: 28px 28px;
 }
 
-/* ---- Understated micro-label ---- */
+/* ── Dot grid — dark sections ── */
+.dot-grid-dark {
+  background-image: radial-gradient(circle, rgba(255,255,255,0.07) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* ── Mono label — used for eyebrows / index numbers ── */
 .label-mono {
-  font-family: var(--font-sans), system-ui, sans-serif;
+  font-family: var(--font-mono), monospace;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
-  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  font-size: 0.7rem;
+  font-weight: 500;
 }
 
-/* ---- Gold hairline rule echoing the logo tagline "BUILD · CONNECT · GROW" ---- */
+/* ── Section index numeral ── */
+.index-numeral {
+  font-family: var(--font-mono), monospace;
+  font-weight: 400;
+  color: var(--green);
+  opacity: 0.6;
+}
+
+/* ── Gold rule ── */
 .rule-gold {
   height: 1px;
-  background: linear-gradient(
-    to right,
-    transparent,
-    var(--gold) 15%,
-    var(--gold) 85%,
-    transparent
-  );
+  background: linear-gradient(to right, transparent, var(--gold) 20%, var(--gold) 80%, transparent);
 }
 
+/* ── Hairline ── */
 .hairline {
   height: 1px;
   background: var(--border-strong);
 }
 
-/* ---- Constellation dot-grid flourish ---- */
-.constellation {
-  background-image: radial-gradient(
-    rgba(100, 116, 139, 0.12) 1px,
-    transparent 1px
-  );
-  background-size: 28px 28px;
+/* ── Hero rise-in animation ── */
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0);    }
 }
 
-/* ---- Oversized magazine section index numeral ---- */
-.index-numeral {
-  font-family: var(--font-display), system-ui, sans-serif;
-  font-weight: 400;
-  line-height: 0.8;
-  color: var(--gold);
+.rise {
+  opacity: 0;
+  animation: rise-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: calc(var(--i, 0) * 80ms);
 }
 
+/* ── Horizontal scroll for Apple Cards ── */
 @keyframes scroll-x {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(calc(-50% - 0.75rem));
-  }
+  from { transform: translateX(0); }
+  to   { transform: translateX(calc(-50% - 0.75rem)); }
 }
-
 .animate-scroll-x {
   animation: scroll-x var(--duration, 40s) linear infinite;
 }
 
-@keyframes rise-in {
-  from {
-    opacity: 0;
-    transform: translateY(18px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* ── Glow pulse on status dot ── */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
 }
-
-/* Staggered hero load — set --i on children for delay. */
-.rise {
-  opacity: 0;
-  animation: rise-in 0.8s cubic-bezier(0.21, 0.47, 0.32, 0.98) forwards;
-  animation-delay: calc(var(--i, 0) * 90ms);
-}
+.pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
 
 @media (prefers-reduced-motion: reduce) {
-  .rise,
-  .animate-scroll-x {
-    animation: none;
-    opacity: 1;
-  }
+  .rise, .animate-scroll-x, .pulse-dot { animation: none; opacity: 1; }
 }
