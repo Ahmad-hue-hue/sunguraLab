@@ -6,26 +6,27 @@
   Fraunces serif display + Hanken Grotesk body + Space Mono technical labels.
 */
 :root {
-  --background: #f4f0e6; /* warm paper */
-  --surface: #efe9da; /* recessed paper */
-  --surface-2: #e7dfcc;
-  --card: #fbf8f0; /* raised card */
-  --foreground: #191c12; /* near-black olive ink */
-  --muted: #5c6150;
+  /* Slate-based neutrals */
+  --background: #f8fafc;   /* slate-50  */
+  --surface:    #f1f5f9;   /* slate-100 */
+  --surface-2:  #e2e8f0;   /* slate-200 */
+  --card:       #ffffff;   /* white     */
+  --foreground: #0f172a;   /* slate-900 */
+  --muted:      #64748b;   /* slate-500 */
+  --border:     #e2e8f0;   /* slate-200 */
+  --border-strong: #cbd5e1;/* slate-300 */
+  --charcoal:   #1e293b;   /* slate-800 */
 
-  --green: #1d4d2b; /* deep forest */
-  --green-600: #235c34;
-  --green-500: #2c7541;
-  --green-accent: #45a35a; /* brighter accent */
-  --green-soft: #e4eeda;
+  /* Brand accents — unchanged */
+  --green:        #1d4d2b;
+  --green-600:    #235c34;
+  --green-500:    #2c7541;
+  --green-accent: #45a35a;
+  --green-soft:   #dcfce7;
 
-  --gold: #b0842a; /* deeper gold, reads on paper */
-  --gold-bright: #d0a53a;
-  --gold-soft: #efe3c4;
-
-  --charcoal: #12140c; /* dark bands */
-  --border: #ded7c4; /* warm hairline */
-  --border-strong: #cfc6ad;
+  --gold:       #b0842a;
+  --gold-bright:#d0a53a;
+  --gold-soft:  #fef9c3;
 }
 
 @theme inline {
@@ -125,7 +126,7 @@ h3,
 /* ---- Constellation dot-grid flourish ---- */
 .constellation {
   background-image: radial-gradient(
-    rgba(69, 163, 90, 0.16) 1px,
+    rgba(100, 116, 139, 0.12) 1px,
     transparent 1px
   );
   background-size: 28px 28px;

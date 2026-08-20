@@ -5,7 +5,6 @@ import { ArrowRight01Icon } from "@hugeicons/core-free-icons";
 import { Section, SectionHeading, Eyebrow } from "@/components/ui/Section";
 import { Reveal } from "@/components/motion/Reveal";
 import { ButtonLink } from "@/components/ui/Button";
-import { CTABand } from "@/components/sections/CTABand";
 import { company, whyUs, stats } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -126,7 +125,6 @@ export default function AboutPage() {
         </div>
       </Section>
 
-      <CTABand />
     </>
   );
 }

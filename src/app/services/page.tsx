@@ -3,7 +3,6 @@ import Image from "next/image";
 import { Section, SectionHeading, Eyebrow } from "@/components/ui/Section";
 import { Reveal } from "@/components/motion/Reveal";
 import { Timeline } from "@/components/ui/Timeline";
-import { CTABand } from "@/components/sections/CTABand";
 import { services, process } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -89,10 +88,6 @@ export default function ServicesPage() {
         </div>
       </Section>
 
-      <CTABand
-        title="Not sure which service fits?"
-        subtitle="Tell us your workflow and data sources — we'll point you to the right build and a fixed price."
-      />
     </>
   );
 }

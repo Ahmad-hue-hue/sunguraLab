@@ -6,7 +6,6 @@ import { ButtonLink } from "@/components/ui/Button";
 import { Section, SectionHeading } from "@/components/ui/Section";
 import { Reveal } from "@/components/motion/Reveal";
 import { BentoShowcase } from "@/components/sections/BentoShowcase";
-import { CTABand } from "@/components/sections/CTABand";
 import { services, stats, whyUs, targetClients } from "@/data/site";
 
 export default function HomePage() {
@@ -224,7 +223,6 @@ export default function HomePage() {
         </div>
       </Section>
 
-      <CTABand />
     </>
   );
 }

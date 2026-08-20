@@ -4,7 +4,6 @@ import { CheckmarkCircle02Icon } from "@hugeicons/core-free-icons";
 import { Section, SectionHeading, Eyebrow } from "@/components/ui/Section";
 import { Reveal } from "@/components/motion/Reveal";
 import { CardContainer, CardItem } from "@/components/ui/Card3D";
-import { CTABand } from "@/components/sections/CTABand";
 import { team } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -98,10 +97,6 @@ export default function TeamPage() {
         </Reveal>
       </Section>
 
-      <CTABand
-        title="Work directly with the people who build it."
-        subtitle="No layers, no handoffs. Start a conversation with the founders today."
-      />
     </>
   );
 }
