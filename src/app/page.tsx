@@ -6,7 +6,6 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
-import Chip from "@mui/material/Chip";
 import { TrustedBy } from "@/components/sections/TrustedBy";
 import { Reveal } from "@/components/motion/Reveal";
 import { services, stats } from "@/data/site";
@@ -467,21 +466,19 @@ export default function HomePage() {
                       {card.num}
                     </Typography>
 
-                    <Chip
-                      label={card.category}
-                      size="small"
+                    <Typography
                       sx={{
-                        bgcolor: "transparent",
-                        color: "#52525b",
-                        border: "1px solid rgba(255,255,255,0.1)",
-                        fontWeight: 600,
+                        display: "block",
                         fontSize: "0.67rem",
-                        letterSpacing: "0.05em",
-                        height: 22,
-                        mb: 3,
-                        "& .MuiChip-label": { px: 1.5 },
+                        fontWeight: 700,
+                        letterSpacing: "0.1em",
+                        textTransform: "uppercase",
+                        color: "#4ade80",
+                        mb: 2.5,
                       }}
-                    />
+                    >
+                      {card.category}
+                    </Typography>
 
                     <Typography
                       sx={{
