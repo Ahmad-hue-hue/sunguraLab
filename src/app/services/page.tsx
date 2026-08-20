@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import { Section, SectionHeading, Eyebrow } from "@/components/ui/Section";
+import { Section, Eyebrow } from "@/components/ui/Section";
 import { Reveal } from "@/components/motion/Reveal";
-import { Timeline } from "@/components/ui/Timeline";
-import { services, process } from "@/data/site";
+import { services } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Services & Pricing",
@@ -63,31 +61,7 @@ export default function ServicesPage() {
         </ul>
       </Section>
 
-      {/* process */}
-      <Section>
-        <div className="grid gap-10 lg:grid-cols-[1fr_0.9fr] lg:items-start">
-          <div>
-            <SectionHeading
-              eyebrow="How we work"
-              title="A working process sized to your project."
-              intro="No multi-week discovery sprints — full discovery is only proportionate for much larger builds. At our project sizes, a focused call is the right depth."
-            />
-            <Timeline items={process} />
-          </div>
-          <Reveal delay={0.1} className="lg:sticky lg:top-24">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-3xl shadow-xl">
-              <Image
-                src="/images/team.jpg"
-                alt="Developers collaborating around a table"
-                fill
-                sizes="(max-width: 1024px) 100vw, 40vw"
-                className="object-cover"
-              />
-            </div>
-          </Reveal>
-        </div>
-      </Section>
 
-    </>
+</>
   );
 }
