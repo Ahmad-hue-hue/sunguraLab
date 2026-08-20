@@ -1,25 +1,12 @@
 import type { Metadata } from "next";
-import { Syne, DM_Sans, JetBrains_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
-const syne = Syne({
-  variable: "--font-syne",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-});
-
-const dm = DM_Sans({
-  variable: "--font-dm",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
-
-const jb = JetBrains_Mono({
-  variable: "--font-jb",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -34,11 +21,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="en"
-      className={`${syne.variable} ${dm.variable} ${jb.variable} h-full antialiased`}
-    >
-      <body className="relative min-h-full flex flex-col bg-background text-foreground">
+    <html lang="en" className={`${inter.variable} h-full antialiased`}>
+      <body className="relative flex min-h-full flex-col bg-white text-zinc-900">
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
