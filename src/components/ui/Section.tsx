@@ -13,7 +13,7 @@ export function Section({
 }) {
   return (
     <section id={id} className={cn("py-20 sm:py-28", className)}>
-      <div className="mx-auto max-w-6xl px-5">{children}</div>
+      <div className="mx-auto max-w-6xl px-5 sm:px-8">{children}</div>
     </section>
   );
 }
@@ -28,11 +28,11 @@ export function Eyebrow({
   return (
     <span
       className={cn(
-        "inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.22em]",
-        onDark ? "text-gold" : "text-green",
+        "label-mono inline-flex items-center gap-2.5 font-bold",
+        onDark ? "text-gold-bright" : "text-green",
       )}
     >
-      <span className="h-px w-6 bg-gold" />
+      <span className="h-1.5 w-1.5 rotate-45 bg-gold" />
       {children}
     </span>
   );
@@ -40,32 +40,36 @@ export function Eyebrow({
 
 export function SectionHeading({
   eyebrow,
+  index,
   title,
   intro,
   align = "left",
   onDark = false,
 }: {
   eyebrow?: string;
+  /** Magazine-style section index, e.g. "01". */
+  index?: string;
   title: ReactNode;
   intro?: ReactNode;
   align?: "left" | "center";
   onDark?: boolean;
 }) {
   return (
-    <Reveal
-      className={cn(
-        "max-w-2xl",
-        align === "center" && "mx-auto text-center",
-      )}
-    >
-      {eyebrow && (
-        <div className={cn(align === "center" && "flex justify-center")}>
-          <Eyebrow onDark={onDark}>{eyebrow}</Eyebrow>
-        </div>
-      )}
+    <Reveal className={cn("max-w-2xl", align === "center" && "mx-auto text-center")}>
+      <div
+        className={cn(
+          "flex items-center gap-4",
+          align === "center" && "justify-center",
+        )}
+      >
+        {index && (
+          <span className="index-numeral text-4xl sm:text-5xl">{index}</span>
+        )}
+        {eyebrow && <Eyebrow onDark={onDark}>{eyebrow}</Eyebrow>}
+      </div>
       <h2
         className={cn(
-          "mt-5 font-display text-3xl font-bold tracking-tight sm:text-4xl",
+          "mt-5 font-display text-[2rem] font-semibold leading-[1.08] tracking-[-0.01em] sm:text-[2.75rem]",
           onDark ? "text-white" : "text-foreground",
         )}
       >
@@ -74,7 +78,7 @@ export function SectionHeading({
       {intro && (
         <p
           className={cn(
-            "mt-4 text-base leading-relaxed sm:text-lg",
+            "mt-5 text-base leading-relaxed sm:text-lg",
             onDark ? "text-white/70" : "text-muted",
           )}
         >

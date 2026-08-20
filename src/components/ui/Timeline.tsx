@@ -41,10 +41,10 @@ export function Timeline({ items }: { items: TimelineItem[] }) {
             transition={{ duration: 0.5, delay: i * 0.05 }}
             className="relative pl-14 sm:pl-20"
           >
-            <span className="absolute left-0 flex h-8 w-8 items-center justify-center rounded-full border border-green/30 bg-green-soft font-display text-xs font-bold text-green sm:h-12 sm:w-12 sm:text-sm">
+            <span className="absolute left-0 flex h-8 w-8 items-center justify-center rounded-full border border-green/25 bg-card font-mono text-xs font-bold text-green sm:h-12 sm:w-12 sm:text-sm">
               {item.step}
             </span>
-            <h3 className="font-display text-lg font-semibold text-foreground sm:text-xl">
+            <h3 className="font-display text-xl font-semibold text-foreground sm:text-2xl">
               {item.title}
             </h3>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted sm:text-base">

@@ -25,8 +25,9 @@ export default function ContactPage() {
         <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-24">
           <Reveal className="max-w-3xl">
             <Eyebrow>Contact</Eyebrow>
-            <h1 className="mt-6 font-display text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl">
-              Let&apos;s scope your project.
+            <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.02] tracking-[-0.02em] text-foreground sm:text-5xl lg:text-6xl">
+              Let&apos;s <em className="font-light italic text-green">scope</em>{" "}
+              your project.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
               Reach out and we&apos;ll set up a free 30–45 minute scoping call to
@@ -44,7 +45,7 @@ export default function ContactPage() {
               {/* email */}
               <a
                 href={`mailto:${company.email}`}
-                className="group flex items-center gap-4 rounded-2xl border border-border bg-white p-6 transition-colors hover:border-green/40"
+                className="group flex items-center gap-4 rounded-2xl border border-border bg-card p-6 transition-colors hover:border-green/40"
               >
                 <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-green-soft text-green">
                   <HugeiconsIcon icon={Mail01Icon} size={24} strokeWidth={1.8} />
@@ -58,7 +59,7 @@ export default function ContactPage() {
               </a>
 
               {/* location */}
-              <div className="flex items-center gap-4 rounded-2xl border border-border bg-white p-6">
+              <div className="flex items-center gap-4 rounded-2xl border border-border bg-card p-6">
                 <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-green-soft text-green">
                   <HugeiconsIcon
                     icon={Location01Icon}
@@ -78,7 +79,7 @@ export default function ContactPage() {
               </div>
 
               {/* hours / response */}
-              <div className="flex items-center gap-4 rounded-2xl border border-border bg-white p-6">
+              <div className="flex items-center gap-4 rounded-2xl border border-border bg-card p-6">
                 <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-green-soft text-green">
                   <HugeiconsIcon
                     icon={Clock01Icon}
@@ -95,7 +96,7 @@ export default function ContactPage() {
               </div>
 
               {/* socials */}
-              <div className="rounded-2xl border border-border bg-white p-6">
+              <div className="rounded-2xl border border-border bg-card p-6">
                 <p className="text-sm text-muted">
                   Or reach us on social — links coming soon.
                 </p>
@@ -128,7 +129,7 @@ export default function ContactPage() {
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {process.slice(0, 3).map((step, i) => (
             <Reveal key={step.step} delay={i * 0.08}>
-              <div className="h-full rounded-2xl border border-border bg-white p-7">
+              <div className="h-full rounded-2xl border border-border bg-card p-7">
                 <span className="font-display text-sm font-bold text-gold">
                   {step.step}
                 </span>

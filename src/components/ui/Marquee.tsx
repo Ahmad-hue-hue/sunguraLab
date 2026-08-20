@@ -24,15 +24,15 @@ export function Marquee({
       )}
     >
       <div
-        className="flex w-max gap-3 animate-scroll-x group-hover:[animation-play-state:paused]"
+        className="flex w-max items-center gap-8 animate-scroll-x group-hover:[animation-play-state:paused]"
         style={{ ["--duration" as string]: `${duration}s` }}
       >
         {[...items, ...items].map((item, i) => (
           <span
             key={`${item}-${i}`}
-            className="flex shrink-0 items-center gap-2 rounded-full border border-border bg-white px-5 py-2.5 text-sm font-medium text-foreground shadow-sm"
+            className="flex shrink-0 items-center gap-3 whitespace-nowrap font-mono text-sm font-bold uppercase tracking-wider text-foreground"
           >
-            <span className="h-1.5 w-1.5 rounded-full bg-green-accent" />
+            <span className="h-1.5 w-1.5 rotate-45 bg-gold" />
             {item}
           </span>
         ))}

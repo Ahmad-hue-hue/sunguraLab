@@ -31,7 +31,7 @@ export function SpotlightCard({
       onMouseEnter={() => setVisible(true)}
       onMouseLeave={() => setVisible(false)}
       className={cn(
-        "group relative overflow-hidden rounded-2xl border border-border bg-white p-7 transition-colors duration-300 hover:border-green/40",
+        "group relative overflow-hidden rounded-xl border border-border bg-card p-7 transition-colors duration-300 hover:border-green/40",
         className,
       )}
     >

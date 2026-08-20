@@ -23,8 +23,9 @@ export default function AboutPage() {
         <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 sm:py-24 lg:grid-cols-2">
           <Reveal>
             <Eyebrow>Who we are</Eyebrow>
-            <h1 className="mt-6 font-display text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl">
-              A small studio that runs engagements end-to-end.
+            <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.02] tracking-[-0.02em] text-foreground sm:text-5xl lg:text-6xl">
+              A small studio that runs engagements{" "}
+              <em className="font-light italic text-green">end-to-end</em>.
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-muted">
               {company.name} was founded by two builders combining hands-on
@@ -94,7 +95,7 @@ export default function AboutPage() {
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {whyUs.map((item, i) => (
             <Reveal key={item.title} delay={(i % 3) * 0.08}>
-              <div className="h-full rounded-2xl border border-border bg-white p-7">
+              <div className="h-full rounded-2xl border border-border bg-card p-7">
                 <h3 className="font-display font-semibold text-foreground">
                   {item.title}
                 </h3>
@@ -112,7 +113,7 @@ export default function AboutPage() {
         <div className="grid gap-6 sm:grid-cols-3">
           {stats.map((s, i) => (
             <Reveal key={s.value} delay={i * 0.08}>
-              <div className="h-full rounded-2xl border border-border bg-white p-7">
+              <div className="h-full rounded-2xl border border-border bg-card p-7">
                 <p className="font-display text-4xl font-extrabold text-green">
                   {s.value}
                 </p>

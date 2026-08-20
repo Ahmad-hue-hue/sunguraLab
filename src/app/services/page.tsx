@@ -21,9 +21,10 @@ export default function ServicesPage() {
         <div className="constellation absolute inset-0 opacity-50" />
         <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-24">
           <Reveal className="max-w-3xl">
-            <Eyebrow>Services & pricing</Eyebrow>
-            <h1 className="mt-6 font-display text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl">
-              AI scoped around what generic tools can&apos;t do.
+            <Eyebrow>Services &amp; pricing</Eyebrow>
+            <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.02] tracking-[-0.02em] text-foreground sm:text-5xl lg:text-6xl">
+              AI scoped around what generic tools{" "}
+              <em className="font-light italic text-green">can&apos;t</em> do.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
               Meta&apos;s free WhatsApp AI agent made basic FAQ bots a commodity.
@@ -40,7 +41,11 @@ export default function ServicesPage() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service, i) => (
             <Reveal key={service.slug} delay={(i % 3) * 0.08}>
-              <ServiceCard service={service} showDescription />
+              <ServiceCard
+                service={service}
+                index={String(i + 1).padStart(2, "0")}
+                showDescription
+              />
             </Reveal>
           ))}
         </div>
@@ -54,7 +59,7 @@ export default function ServicesPage() {
           intro={pricingNote}
         />
         <Reveal className="mt-12">
-          <div className="overflow-hidden rounded-2xl border border-border bg-white">
+          <div className="overflow-hidden rounded-2xl border border-border bg-card">
             <table className="w-full text-left">
               <thead>
                 <tr className="border-b border-border bg-surface-2/60 text-sm">

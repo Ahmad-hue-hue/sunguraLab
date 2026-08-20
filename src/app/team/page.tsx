@@ -21,8 +21,10 @@ export default function TeamPage() {
         <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-24">
           <Reveal className="max-w-3xl">
             <Eyebrow>The team</Eyebrow>
-            <h1 className="mt-6 font-display text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl">
-              Two builders. Direct communication.
+            <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.02] tracking-[-0.02em] text-foreground sm:text-5xl lg:text-6xl">
+              Two builders.{" "}
+              <em className="font-light italic text-green">Direct</em>{" "}
+              communication.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
               Technical depth on one side, client-facing execution on the other
@@ -37,7 +39,7 @@ export default function TeamPage() {
           {team.map((member, i) => (
             <Reveal key={member.name} delay={i * 0.1}>
               <CardContainer className="h-full">
-                <div className="relative h-full overflow-hidden rounded-3xl border border-border bg-white p-8">
+                <div className="relative h-full overflow-hidden rounded-3xl border border-border bg-card p-8">
                   <div className="constellation absolute inset-0 opacity-40" />
                   <div className="relative">
                     <CardItem translateZ={40}>

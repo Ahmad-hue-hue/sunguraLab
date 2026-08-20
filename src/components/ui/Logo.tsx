@@ -58,12 +58,12 @@ export function Wordmark({
   return (
     <span
       className={cn(
-        "font-display text-xl font-bold tracking-tight",
+        "font-display text-[1.35rem] font-semibold tracking-[-0.02em]",
         className,
       )}
     >
       <span className={onDark ? "text-white" : "text-foreground"}>Sungura</span>
-      <span className="text-green">Labs</span>
+      <span className="italic text-green">Labs</span>
     </span>
   );
 }
