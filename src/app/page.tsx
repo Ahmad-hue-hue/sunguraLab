@@ -471,9 +471,10 @@ export default function HomePage() {
                       label={card.category}
                       size="small"
                       sx={{
-                        bgcolor: "rgba(22,163,74,0.13)",
-                        color: "#4ade80",
-                        fontWeight: 700,
+                        bgcolor: "transparent",
+                        color: "#52525b",
+                        border: "1px solid rgba(255,255,255,0.1)",
+                        fontWeight: 600,
                         fontSize: "0.67rem",
                         letterSpacing: "0.05em",
                         height: 22,
