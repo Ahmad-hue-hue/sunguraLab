@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SunguraLabs — Website
 
-## Getting Started
+SunguraLabs: AI-integrated software development studio (Dar es Salaam, Tanzania).
+Next.js App Router project with TypeScript, Tailwind and CSS Modules, built on
+the Origin Kit "Outstand" template.
 
-First, run the development server:
+All business content lives in `data/site.ts` — prices, services, stats, process,
+tools, target clients and the two-person team. Brand colours (emerald, gold,
+ink-black) come from `styles/tokens.css`.
+
+## Quick start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun install
+bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3100.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Command | What it does |
+| --- | --- |
+| `bun run dev` | Development server on port 3100 |
+| `bun run build` | Production build |
+| `bun run start` | Serve the production build |
+| `bun run lint` | ESLint |
+| `bun run typecheck` | TypeScript, no emit |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deployment
 
-## Learn More
+The whole site prerenders to static HTML — every route is `○ (Static)`. It will
+run anywhere that hosts a Next.js app:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Vercel** — import the repo, no configuration needed.
+- **Netlify / Cloudflare** — use their Next.js adapter.
+- **Self-hosted** — `bun run build && bun run start` behind a reverse proxy.
