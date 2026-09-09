@@ -985,6 +985,9 @@
   .textContainer2 {
     width: min(100%, 298px);
   }
+  .heading2, .r29 {
+    width: min(100%, 298px) !important;
+  }
   .paragraph2 {
     width: min(100%, 298px);
   }
@@ -1070,4 +1073,15 @@
   .r33 { height: auto; }
   .processCard2 { height: auto; }
   .card { height: auto; }
+}
+
+/* tablet-fix: flow the process steps so the CTA row clears the step cards */
+@media (max-width: 1319px) {
+  .process, .subContainer { height: auto !important; }
+  .container { height: auto !important; grid-template-rows: auto auto auto !important; }
+  .r17, .processCard, .r33, .processCard2, .r39, .processCard3, .card { height: auto !important; }
+  .textContainer2, .heading2, .r29, .paragraph2, .r31,
+  .textContainer3, .paragraph3, .r38, .textContainer4, .paragraph4, .r43,
+  .heading3, .r49 { height: auto !important; }
+  .paragraph2, .r31, .paragraph3, .r38, .paragraph4, .r43 { white-space: normal; word-break: normal; }
 }

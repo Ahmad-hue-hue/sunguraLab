@@ -682,11 +682,42 @@
 }
 
 @media (max-width: 810px) {
-  .benefitsSection { height: auto; }
-  .r2 { height: auto; }
-  .dektop { height: auto; }
-  .textContainer { height: auto; }
-  .subContainer { height: auto; grid-template-rows: none; }
-  .r16 { height: auto; }
-  .desktopTablet, .desktopTablet2, .desktopTablet3, .desktopTablet4 { height: auto; }
+  /* The desktop heading reserves 150px on both sides. At phone width that
+     leaves a 58px text column, which causes every word to wrap and overlap. */
+  .benefitsSection,
+  .r2,
+  .dektop,
+  .textContainer,
+  .heading,
+  .r12,
+  .paragraph,
+  .r14,
+  .subContainer,
+  .r16,
+  .textContainer2,
+  .heading2,
+  .r24,
+  .paragraph2,
+  .r26 {
+    height: auto;
+    min-width: 0;
+    white-space: normal;
+  }
+
+  .benefitsSection { gap: 40px; }
+  .textContainer { padding-inline: 0; }
+  .subContainer { grid-template-rows: none; }
+  .desktopTablet,
+  .desktopTablet2,
+  .desktopTablet3,
+  .desktopTablet4,
+  .desktopTablet5,
+  .desktopTablet6,
+  .desktopTablet7 {
+    height: auto;
+    min-height: 0;
+    gap: 16px;
+    overflow: visible;
+    padding: 24px;
+  }
 }

@@ -1849,13 +1849,21 @@ div:has(> .priceValue) {
 
 /* phone-height-fix */
 @media (max-width: 809px) {
-  .card, .card2, .card3 { height: auto; overflow: hidden; }
+  .card, .card2, .card3 { height: auto !important; overflow: hidden; }
   .popular { width: max-content; min-width: 50.5625px; white-space: nowrap; }
   .r70 { width: max-content; white-space: nowrap; }
   .r65, .r95 { white-space: normal; word-break: normal; }
   .container3 { flex-direction: column !important; height: auto !important; gap: 12px; }
   .heading3, .heading4, .heading2, .r65, .r95, .text9, .r100 { width: min(100%, 310px) !important; }
   .text9, .r100 { white-space: normal; height: auto; }
+  .textContainer4, .textContainer5, .textContainer3 { height: auto !important; }
+  .paragraph3, .r73, .paragraph4 { height: auto !important; }
   .frame856 { margin-left: auto; }
   .abstractDesign { right: 10px; left: auto; }
+}
+
+/* tablet-fix: let pricing rows grow so the section never bleeds into the next one */
+@media (max-width: 1319px) {
+  .r15, .desktopMonthly { height: auto !important; }
+  .container2 { height: auto !important; grid-template-rows: auto auto !important; }
 }

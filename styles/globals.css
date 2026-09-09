@@ -161,6 +161,39 @@ svg {
   .pageShellFlush {
     padding-top: 0;
   }
+
+  /* The exported section CSS was authored with fixed desktop text boxes.
+     On a phone, inherited side padding and fixed heights make headings wrap
+     into a few pixels and then paint over the next element. Keep every
+     text box in the normal document flow at this breakpoint. */
+  .pageShell > section {
+    height: auto !important;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .pageShell > section [class*='textContainer'],
+  .pageShell > section [class*='heading'],
+  .pageShell > section [class*='paragraph'],
+  .pageShell > section [class*='text'] {
+    height: auto !important;
+    min-width: 0;
+    max-width: 100%;
+    padding-inline: 0 !important;
+    white-space: normal !important;
+  }
+
+  .pageShell > section h1,
+  .pageShell > section h2,
+  .pageShell > section h3,
+  .pageShell > section h4,
+  .pageShell > section p {
+    height: auto !important;
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    white-space: normal !important;
+  }
 }
 
 /* ------------------------------------------------------------------ *

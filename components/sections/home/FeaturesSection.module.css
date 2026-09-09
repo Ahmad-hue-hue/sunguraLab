@@ -1285,3 +1285,20 @@
   .text3, .r32 { width: 100%; height: auto; white-space: normal; }
   .text3 { flex-shrink: 1; min-width: 0; }
 }
+
+/* tablet-fix: let chip rows grow so 2-line labels are never sliced */
+@media (max-width: 1319px) {
+  .featuresSection, .subContainer, .card, .container3, .subContainer6 { height: auto !important; }
+  .container {
+    flex-wrap: wrap !important;
+    align-items: flex-start !important;
+    align-content: flex-start;
+    row-gap: 14px;
+    height: auto !important;
+  }
+  .text2, .text3, .text4, .text5, .r29, .r32, .r35, .r38 {
+    height: auto !important;
+    white-space: normal;
+    word-break: normal;
+  }
+}

@@ -1355,3 +1355,14 @@
     min-width: 0;
   }
 }
+
+/* tablet-fix: let solution rows grow so text never spills into neighbours */
+@media (max-width: 1319px) {
+  .ourSolutionSection { height: auto !important; }
+  .container, .container3, .container4, .subContainer2, .subContainer3 { height: auto !important; }
+  .r42, .noImage2, .r47, .r50, .noImage3, .r57, .tablet { height: auto !important; }
+  .textContainer2, .textContainer3, .textContainer4, .textContainer5, .textContainer6,
+  .heading2, .heading4, .heading5, .heading6, .r22, .r46, .r54, .r61,
+  .paragraph2, .paragraph4, .paragraph5, .r25, .r56, .r63 { height: auto !important; }
+  .paragraph2, .paragraph4, .paragraph5, .r25, .r56, .r63 { white-space: normal; word-break: normal; }
+}

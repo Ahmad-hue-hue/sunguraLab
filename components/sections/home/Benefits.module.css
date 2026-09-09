@@ -759,3 +759,11 @@
     width: min(100%, 310px);
   }
 }
+
+/* tablet-fix: let benefit cards grow so text never spills into neighbours */
+@media (max-width: 1319px) {
+  .benefits, .subContainer, .container, .container3 { height: auto !important; }
+  .subContainer { grid-template-rows: auto auto !important; }
+  .r17, .benefitsCard, .r32, .benefitsCard2 { height: auto !important; }
+  .paragraph2, .r27, .paragraph3, .r40, .heading2, .r24, .heading3, .r37 { height: auto !important; white-space: normal; word-break: normal; }
+}

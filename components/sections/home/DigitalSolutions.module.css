@@ -817,6 +817,11 @@
   .textContainer { height: auto; }
   .subContainer { height: auto; }
   .container { height: auto; grid-template-rows: none; }
-  .r17, .r32 { height: auto; }
-  .big, .big2 { height: auto; }
+  .r17, .r32 { height: auto !important; }
+  .big, .big2 { height: auto !important; }
+  .big { overflow: visible; }
+  .container, .container2, .container4 { height: auto !important; }
+  .container2, .container4 { justify-content: flex-start; }
+  .heading2, .r26, .heading3, .r37, .textContainer2, .textContainer3,
+  .paragraph2, .r30, .paragraph3, .r41 { height: auto !important; white-space: normal; }
 }
