@@ -1301,46 +1301,46 @@
 
 @media (max-width: 809px) {
   .pricingPlan {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2624.94px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 223.188px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 223.188px;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 177.188px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
     font-size: 28px;
     line-height: 33.6px;
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 315.031px;
+    width: min(100%, 315.031px);
     height: 102px;
   }
   .r14 {
-    width: 315.031px;
+    width: min(100%, 315.031px);
     height: 102px;
   }
   .r15 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2341.75px;
   }
   .desktopMonthly {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2341.75px;
   }
   .abstractDesign {
@@ -1391,7 +1391,7 @@
   }
   .container2 {
     display: flex;
-    width: 358px;
+    width: min(100%, 358px);
     height: 2253.75px;
     flex-direction: column;
     align-items: flex-start;
@@ -1399,100 +1399,100 @@
     place-content: flex-start center;
   }
   .card {
-    width: 358px;
+    width: min(100%, 358px);
     height: 394.312px;
     padding: 24px;
     border-radius: 14px;
   }
   .textContainer2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .heading2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r37 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .line {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .text3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r40 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .itemsContainer {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r47 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .pointer1 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .text5 {
-    width: 272px;
+    width: min(100%, 272px);
   }
   .r54 {
-    width: 272px;
+    width: min(100%, 272px);
   }
   .r55 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .hoverArrow {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .card2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 511.812px;
     padding: 24px;
     border-radius: 14px;
   }
   .textContainer4 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .text7 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r64 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .itemsContainer2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .card3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 603.812px;
     padding: 24px;
     border-radius: 14px;
   }
   .itemsContainer3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .card4 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 695.812px;
     padding: 24px;
     border-radius: 14px;
   }
   .textContainer5 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r70 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .text8 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r72 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .itemsContainer4 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .iconLeftRight {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .shine {
     right: 312px;
@@ -1543,4 +1543,15 @@ div:has(> .priceValue) {
 .container[data-yearly='true'] .monthly p,
 .container .monthly p {
   transition: color 0.3s var(--ease-out-framer);
+}
+
+/* phone-height-fix */
+@media (max-width: 809px) {
+  .card, .card2, .card3, .card4 { height: auto; overflow: hidden; }
+  .container3 { flex-direction: column !important; height: auto !important; gap: 12px; }
+  .heading3, .heading4, .heading2, .r65, .r95, .text9, .r100 { width: min(100%, 310px) !important; }
+  .text9, .r100 { white-space: normal; height: auto; }
+  .frame856 { margin-left: auto; }
+  .abstractDesign { right: 10px; left: auto; }
+  .design2 { right: 8px; left: auto; }
 }

@@ -1553,30 +1553,30 @@
 
 @media (max-width: 809px) {
   .pricingPlan {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1984.78px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 256.781px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 256.781px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 210.781px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 100.781px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 100.781px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -1584,19 +1584,19 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .r15 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1668px;
   }
   .desktopMonthly {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1668px;
   }
   .abstractDesign {
@@ -1647,7 +1647,7 @@
   }
   .container2 {
     display: flex;
-    width: 358px;
+    width: min(100%, 358px);
     height: 1580px;
     flex-direction: column;
     align-items: flex-start;
@@ -1655,7 +1655,7 @@
     place-content: flex-start center;
   }
   .card {
-    width: 358px;
+    width: min(100%, 358px);
     height: 501px;
     gap: 24px;
     row-gap: 24px;
@@ -1664,50 +1664,50 @@
     border-radius: 14px;
   }
   .textContainer2 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 135.5px;
     gap: 14px;
     row-gap: 14px;
     column-gap: 14px;
   }
   .heading2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r37 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .line {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .paragraph2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r40 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .itemsContainer {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r47 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .pointer1 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .text4 {
-    width: 272px;
+    width: min(100%, 272px);
   }
   .r54 {
-    width: 272px;
+    width: min(100%, 272px);
   }
   .r55 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .hoverArrow {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .card2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 544px;
     gap: 24px;
     row-gap: 24px;
@@ -1716,14 +1716,14 @@
     border-radius: 14px;
   }
   .textContainer4 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 142.5px;
     gap: 14px;
     row-gap: 14px;
     column-gap: 14px;
   }
   .container3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .heading3 {
     width: 191.438px;
@@ -1732,59 +1732,59 @@
     width: 191.438px;
   }
   .line2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .paragraph3 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 76.5px;
   }
   .r73 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 76.5px;
   }
   .itemsContainer2 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 192px;
   }
   .r75 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 48px;
   }
   .pointer12 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 48px;
   }
   .text6 {
-    width: 272px;
+    width: min(100%, 272px);
     height: 48px;
   }
   .r78 {
-    width: 272px;
+    width: min(100%, 272px);
     height: 48px;
   }
   .r79 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .pointer13 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .text7 {
-    width: 272px;
+    width: min(100%, 272px);
   }
   .r82 {
-    width: 272px;
+    width: min(100%, 272px);
   }
   .r83 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .iconLeftRight {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .shine {
     right: 312px;
   }
   .card3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 503px;
     gap: 24px;
     row-gap: 24px;
@@ -1793,7 +1793,7 @@
     border-radius: 14px;
   }
   .textContainer5 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 137.5px;
     gap: 14px;
     row-gap: 14px;
@@ -1845,4 +1845,17 @@ div:has(> .priceValue) {
 .container[data-yearly='true'] .monthly p,
 .container .monthly p {
   transition: color 0.3s var(--ease-out-framer);
+}
+
+/* phone-height-fix */
+@media (max-width: 809px) {
+  .card, .card2, .card3 { height: auto; overflow: hidden; }
+  .popular { width: max-content; min-width: 50.5625px; white-space: nowrap; }
+  .r70 { width: max-content; white-space: nowrap; }
+  .r65, .r95 { white-space: normal; word-break: normal; }
+  .container3 { flex-direction: column !important; height: auto !important; gap: 12px; }
+  .heading3, .heading4, .heading2, .r65, .r95, .text9, .r100 { width: min(100%, 310px) !important; }
+  .text9, .r100 { white-space: normal; height: auto; }
+  .frame856 { margin-left: auto; }
+  .abstractDesign { right: 10px; left: auto; }
 }

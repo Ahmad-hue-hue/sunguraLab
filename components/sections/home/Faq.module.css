@@ -730,30 +730,30 @@
 
 @media (max-width: 809px) {
   .faqS {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1521.62px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 172.188px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 172.188px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 126.188px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -761,109 +761,109 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 51px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 51px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1289.44px;
   }
   .r16 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 615.938px;
   }
   .big {
-    width: 358px;
+    width: min(100%, 358px);
     height: 615.938px;
   }
   .subContainer2 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .heading2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r20 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 546.344px;
     padding-right: 24px;
     padding-bottom: 20px;
     padding-left: 24px;
   }
   .r22 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .bigClosed {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .container2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .question {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r26 {
-    width: 236px;
+    width: min(100%, 236px);
     height: 43.1875px;
   }
   .r27 {
-    width: 236px;
+    width: min(100%, 236px);
     height: 43.1875px;
   }
   .line {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r33 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 112.781px;
   }
   .bigClosed2 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 112.781px;
   }
   .container3 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 112.781px;
   }
   .question2 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 64.7812px;
   }
   .r37 {
-    width: 236px;
+    width: min(100%, 236px);
     height: 64.7812px;
   }
   .r38 {
-    width: 236px;
+    width: min(100%, 236px);
     height: 64.7812px;
   }
   .r39 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 657.5px;
   }
   .big2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 657.5px;
   }
   .container4 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 587.906px;
     padding-right: 24px;
     padding-bottom: 20px;
     padding-left: 24px;
   }
   .r42 {
-    width: 236px;
+    width: min(100%, 236px);
     height: 64.7812px;
   }
   .r43 {
-    width: 236px;
+    width: min(100%, 236px);
     height: 64.7812px;
   }
 }

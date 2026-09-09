@@ -912,33 +912,33 @@
 
 @media (max-width: 809px) {
   .process {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2016.19px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 164.094px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 164.094px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 118.094px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -946,81 +946,84 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1802.09px;
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1547px;
-    grid-template-columns: 358px;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: 244.5px 244.5px 244.5px 244.5px 244.5px 244.5px;
   }
   .r17 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .processCard {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .container2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .textContainer2 {
-    width: 298px;
+    width: min(100%, 298px);
+  }
+  .heading2, .r29 {
+    width: min(100%, 298px) !important;
   }
   .paragraph2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r31 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r32 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 244.5px;
   }
   .processCard2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 244.5px;
   }
   .container3 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .textContainer3 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 112.5px;
   }
   .paragraph3 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 76.5px;
   }
   .r37 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 76.5px;
   }
   .r38 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .processCard3 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .textContainer4 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .paragraph4 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r42 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .card {
-    width: 358px;
+    width: min(100%, 358px);
     height: 239.094px;
     flex-direction: column;
     gap: 30px;
@@ -1029,24 +1032,35 @@
     padding: 24px;
   }
   .textContainer5 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 107.594px;
   }
   .text3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r46 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .heading3 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 72px;
   }
   .r48 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 72px;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.4px;
   }
+}
+
+@media (max-width: 810px) {
+  .process { height: auto; }
+  .r2 { height: auto; }
+  .dektop { height: auto; }
+  .subContainer { height: auto; }
+  .container { height: auto; grid-template-rows: none; }
+  .r32 { height: auto; }
+  .processCard2 { height: auto; }
+  .card { height: auto; }
 }

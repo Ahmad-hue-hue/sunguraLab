@@ -129,14 +129,14 @@ export default function Features() {
                   </div>
                   <div className={styles.heading3}>
                     <h3 className={styles.r32}>
-                      Built on your stack
+                      East Africa-based builders
                     </h3>
                   </div>
                 </div>
                 <div className={styles.container4}>
                   <div className={styles.paragraph3}>
                     <p className={styles.r35}>
-                      React, Next.js, TypeScript, Supabase, Python, Claude/OpenAI.
+                      A two-person studio in Dar es Salaam — grounded in the workflows and cost realities of the region.
                     </p>
                   </div>
                 </div>

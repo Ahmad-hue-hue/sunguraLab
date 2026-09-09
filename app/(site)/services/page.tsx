@@ -7,7 +7,6 @@ import Services from '@/components/sections/services/Services';
 import PricingPlan from '@/components/sections/services/PricingPlan';
 import Comparison from '@/components/sections/services/Comparison';
 import KeyFeatures from '@/components/sections/services/KeyFeatures';
-import Payment from '@/components/sections/services/Payment';
 import Benefits from '@/components/sections/services/Benefits';
 import Faq from '@/components/sections/services/Faq';
 import Process from '@/components/sections/services/Process';
@@ -39,7 +38,6 @@ export default function ServicesPage() {
         <PricingPlan />
         <Comparison />
         <KeyFeatures />
-        <Payment />
         <Benefits />
         <Faq />
         <Process />

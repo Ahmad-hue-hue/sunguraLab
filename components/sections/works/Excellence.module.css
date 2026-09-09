@@ -493,33 +493,33 @@
 
 @media (max-width: 809px) {
   .execllence {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1150.59px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 138.594px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 138.594px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 92.5938px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -527,38 +527,43 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 51px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 51px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 962px;
-    grid-template-columns: 358px;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: 228.5px 228.5px 228.5px 228.5px;
   }
   .r16 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .awardCard {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .textContainer2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .heading2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r24 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .text2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r26 {
-    width: 310px;
+    width: min(100%, 310px);
   }
+}
+
+@media (max-width: 810px) {
+  .execllence { height: auto; }
+  .subContainer { height: auto; grid-template-rows: none; }
 }

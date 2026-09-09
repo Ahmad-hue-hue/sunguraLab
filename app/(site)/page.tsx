@@ -3,7 +3,6 @@ import BenefitsSection from '@/components/sections/home/BenefitsSection';
 import OurSolutionSection from '@/components/sections/home/OurSolutionSection';
 import FeaturesSection from '@/components/sections/home/FeaturesSection';
 import WhyChooseUs from '@/components/sections/home/WhyChooseUs';
-import OurExpertise from '@/components/sections/home/OurExpertise';
 import AboutSection from '@/components/sections/home/AboutSection';
 import Benefits from '@/components/sections/home/Benefits';
 import DigitalSolutions from '@/components/sections/home/DigitalSolutions';
@@ -27,7 +26,6 @@ export default function HomePage() {
         <OurSolutionSection />
         <FeaturesSection />
         <WhyChooseUs />
-        <OurExpertise />
         <AboutSection />
         <Benefits />
         <DigitalSolutions />

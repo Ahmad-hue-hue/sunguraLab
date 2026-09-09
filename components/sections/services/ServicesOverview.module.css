@@ -1016,30 +1016,30 @@
 
 @media (max-width: 809px) {
   .servicesOverview {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2793.09px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 215.094px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 215.094px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 169.094px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -1047,23 +1047,23 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 127.5px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 127.5px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2518px;
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 834.5px;
   }
   .card {
-    width: 318px;
+    width: min(100%, 318px);
     height: 271.5px;
     gap: 30px;
     row-gap: 30px;
@@ -1071,34 +1071,34 @@
     padding: 24px;
   }
   .container2 {
-    width: 270px;
+    width: min(100%, 270px);
     height: 140px;
   }
   .subContainer2 {
-    width: 270px;
+    width: min(100%, 270px);
   }
   .heading2 {
-    width: 236px;
+    width: min(100%, 236px);
   }
   .r24 {
-    width: 236px;
+    width: min(100%, 236px);
   }
   .paragraph2 {
-    width: 270px;
+    width: min(100%, 270px);
     height: 102px;
   }
   .r26 {
-    width: 270px;
+    width: min(100%, 270px);
     height: 102px;
   }
   .r27 {
-    width: 270px;
+    width: min(100%, 270px);
   }
   .hoverArrow {
-    width: 270px;
+    width: min(100%, 270px);
   }
   .subContainer3 {
-    width: 318px;
+    width: min(100%, 318px);
     height: 503px;
   }
   .container3 {
@@ -1158,11 +1158,11 @@
     flex-basis: 0px;
   }
   .container5 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 809px;
   }
   .subContainer4 {
-    width: 318px;
+    width: min(100%, 318px);
     height: 477.5px;
   }
   .card5 {
@@ -1180,6 +1180,6 @@
     align-self: stretch;
   }
   .subContainer5 {
-    width: 270px;
+    width: min(100%, 270px);
   }
 }

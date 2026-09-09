@@ -109,11 +109,6 @@ export default function Hero() {
             <div className={styles.container4}>
               <div className={styles.card} data-border="true">
                 <div className={styles.subContainer2}>
-                  <div className={styles.image}>
-                    <div className={styles.r52}>
-                      <Image className={styles.r53} src="/assets/media/9LsDWkYbCJk2SVOzd0uMZz7vy9Y.png" alt="Flag" width={270} height={148} />
-                    </div>
-                  </div>
                   <div className={styles.text2}>
                     <h3 className={styles.r55}>
                       Email
@@ -151,20 +146,6 @@ export default function Hero() {
                       </p>
                     </div>
                   </div>
-                  <div className={styles.container5}>
-                    <div className={styles.iconContainer} data-border="true">
-                      <div className={styles.icon2}>
-                        <div className={styles.r22}>
-                          <Image className={styles.r60} src="/assets/media/GATgFNt2br0fr9FKQPvsBuf5lHI.svg" alt="Icon" width={20} height={20} />
-                        </div>
-                      </div>
-                    </div>
-                    <div className={styles.text3}>
-                      <p className={styles.r62}>
-                        Dar es Salaam, Tanzania
-                      </p>
-                    </div>
-                  </div>
                   <div className={styles.container6}>
                     <div className={styles.iconContainer} data-border="true">
                       <div className={styles.icon2}>
@@ -186,11 +167,6 @@ export default function Hero() {
               </div>
               <div className={styles.card2} data-border="true">
                 <div className={styles.subContainer4}>
-                  <div className={styles.image2}>
-                    <div className={styles.r52}>
-                      <Image className={styles.r53} src="/assets/media/P2PmLnNOvS5qq9GHik2nheUitOA.png" alt="Flag" width={270} height={148} />
-                    </div>
-                  </div>
                   <div className={styles.text5}>
                     <h3 className={styles.r70}>
                       Location
@@ -263,11 +239,6 @@ export default function Hero() {
               </div>
               <div className={styles.card} data-border="true">
                 <div className={styles.subContainer2}>
-                  <div className={styles.image2}>
-                    <div className={styles.r52}>
-                      <Image className={styles.r53} src="/assets/media/aazmfRYtsKaJ4BJgVCMi7KZQHtA.png" alt="Flag" width={266} height={148} />
-                    </div>
-                  </div>
                   <div className={styles.text2}>
                     <h3 className={styles.r55}>
                       Response time
@@ -302,20 +273,6 @@ export default function Hero() {
                     <div className={styles.text3}>
                       <p className={styles.r62}>
                         hello@sunguralabs.com
-                      </p>
-                    </div>
-                  </div>
-                  <div className={styles.container5}>
-                    <div className={styles.iconContainer} data-border="true">
-                      <div className={styles.icon2}>
-                        <div className={styles.r22}>
-                          <Image className={styles.r60} src="/assets/media/GATgFNt2br0fr9FKQPvsBuf5lHI.svg" alt="Icon" width={20} height={20} />
-                        </div>
-                      </div>
-                    </div>
-                    <div className={styles.text3}>
-                      <p className={styles.r62}>
-                        Dar es Salaam, Tanzania
                       </p>
                     </div>
                   </div>

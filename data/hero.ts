@@ -20,11 +20,6 @@ export interface HeroContent {
   primaryCta: { label: string; href: string };
   note: { text: string; icon: string };
   stats: HeroStat[];
-  marquee: {
-    title: string;
-    /** Logos cycle infinitely; the component duplicates the list itself. */
-    logos: { src: string; alt: string }[];
-  };
   background: {
     pattern: string;
     lightLeft: string;
@@ -56,18 +51,6 @@ export const hero: HeroContent = {
     { value: '86%', label: 'still enter invoice and record data by hand' },
     { value: '1–4', label: 'weeks to ship a production-grade build' },
   ],
-
-  marquee: {
-    title: 'Trusted by forward-thinking businesses',
-    logos: [
-      { src: '/assets/media/brands/meta.svg', alt: 'Meta' },
-      { src: '/assets/media/brands/openai.svg', alt: 'OpenAI' },
-      { src: '/assets/media/brands/anthropic.svg', alt: 'Anthropic' },
-      { src: '/assets/media/brands/google.svg', alt: 'Google' },
-      { src: '/assets/media/brands/mistral-ai.svg', alt: 'Mistral AI' },
-      { src: '/assets/media/brands/hugging-face.svg', alt: 'Hugging Face' },
-    ],
-  },
 
   background: {
     pattern: '/assets/media/BtlaHSBVpP1o4SpXdJy2V9cdWF0.png',

@@ -504,33 +504,33 @@
 
 @media (max-width: 809px) {
   .aboutSection {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1525.19px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 223.188px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 223.188px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 177.188px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -538,74 +538,74 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1252px;
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 300px;
   }
   .image {
-    width: 358px;
+    width: min(100%, 358px);
     height: 300px;
   }
   .r18 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 300px;
   }
   .r19 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 300px;
   }
   .container2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 902px;
   }
   .subContainer2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 431px;
     flex-direction: column;
   }
   .card {
-    width: 358px;
+    width: min(100%, 358px);
     height: 195.5px;
   }
   .textContainer2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 86px;
   }
   .heading2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 36px;
   }
   .r25 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 36px;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.6px;
   }
   .text2 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .r27 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .line {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .paragraph2 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .r30 {
-    width: 358px;
+    width: min(100%, 358px);
   }
 }

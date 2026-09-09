@@ -1216,33 +1216,33 @@
 
 @media (max-width: 809px) {
   .projects {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1142.09px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 189.594px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 189.594px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 143.594px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -1250,32 +1250,32 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 902.5px;
   }
   .r16 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 809px;
     flex-direction: column;
   }
   .r84 {
     position: relative;
-    width: 358px;
+    width: min(100%, 358px);
     height: 396.5px;
     flex-shrink: 0;
   }
   .openImage14 {
     display: flex;
     position: relative;
-    width: 358px;
+    width: min(100%, 358px);
     height: 396.5px;
     flex-direction: column;
     justify-content: flex-start;
@@ -1301,7 +1301,7 @@
   .imageContainer4 {
     display: flex;
     position: relative;
-    width: 310px;
+    width: min(100%, 310px);
     height: 250px;
     justify-content: center;
     align-items: flex-end;
@@ -1328,12 +1328,12 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    width: 310px;
+    width: min(100%, 310px);
     height: 250px;
     border-radius: 12px;
   }
   .r88 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 250px;
     overflow: clip;
     overflow-x: clip;
@@ -1344,7 +1344,7 @@
   .tabsContainer3 {
     display: flex;
     position: relative;
-    width: 260px;
+    width: min(100%, 260px);
     height: 68px;
     justify-content: flex-start;
     align-items: flex-start;
@@ -1443,7 +1443,7 @@
   .textContainer5 {
     display: flex;
     position: relative;
-    width: 310px;
+    width: min(100%, 310px);
     height: 70.5px;
     flex-direction: column;
     justify-content: flex-start;
@@ -1458,7 +1458,7 @@
   .container4 {
     display: flex;
     position: relative;
-    width: 310px;
+    width: min(100%, 310px);
     height: 37.5px;
     justify-content: space-between;
     align-items: center;
@@ -1576,7 +1576,7 @@
   .paragraph5 {
     display: flex;
     position: relative;
-    width: 310px;
+    width: min(100%, 310px);
     height: 27px;
     flex-direction: column;
     justify-content: flex-start;
@@ -1586,7 +1586,7 @@
     word-break: break-word;
   }
   .r110 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 27px;
     color: rgb(150, 151, 156);
     font-family: "Rethink Sans", "Rethink Sans Placeholder", sans-serif;

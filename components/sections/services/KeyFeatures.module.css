@@ -932,76 +932,76 @@
 
 @media (max-width: 809px) {
   .keyFeatures {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2044.09px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 189.594px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 189.594px;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 143.594px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     font-size: 28px;
     line-height: 33.6px;
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 315.031px;
+    width: min(100%, 315.031px);
     height: 102px;
   }
   .r14 {
-    width: 315.031px;
+    width: min(100%, 315.031px);
     height: 102px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1804.5px;
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 881.5px;
   }
   .r17 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 413.5px;
   }
   .tablet {
-    width: 358px;
+    width: min(100%, 358px);
     height: 413.5px;
     padding: 30px 30px 200px 30px;
   }
   .textContainer2 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 111.5px;
   }
   .heading2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r25 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .paragraph2 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 76.5px;
   }
   .r27 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 76.5px;
   }
   .image {
@@ -1009,97 +1009,97 @@
     right: 47px;
     bottom: -169px;
     left: 30px;
-    width: 281px;
+    width: min(100%, 281px);
     height: 337px;
   }
   .r29 {
-    width: 281px;
+    width: min(100%, 281px);
     height: 337px;
   }
   .r30 {
-    width: 281px;
+    width: min(100%, 281px);
     height: 337px;
   }
   .subContainer2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 452px;
     flex-direction: column;
   }
   .r32 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .noImage {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .textContainer3 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .heading3 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r36 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .paragraph3 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r38 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .container2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 907px;
   }
   .subContainer3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 477.5px;
     flex-direction: column;
   }
   .r41 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 243.5px;
   }
   .noImage2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 243.5px;
   }
   .textContainer4 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 111.5px;
   }
   .paragraph4 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 76.5px;
   }
   .r45 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 76.5px;
   }
   .r46 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .noImage3 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .r48 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 413.5px;
   }
   .tablet2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 413.5px;
     padding: 30px 30px 200px 30px;
   }
   .textContainer5 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 111.5px;
   }
   .paragraph5 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 76.5px;
   }
   .r52 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 76.5px;
   }
   .image2 {
@@ -1107,15 +1107,20 @@
     right: 47px;
     bottom: -169px;
     left: 30px;
-    width: 281px;
+    width: min(100%, 281px);
     height: 337px;
   }
   .r54 {
-    width: 281px;
+    width: min(100%, 281px);
     height: 337px;
   }
   .r55 {
-    width: 281px;
+    width: min(100%, 281px);
     height: 337px;
   }
+}
+
+/* phone-padfix */
+@media (max-width: 809px) {
+  .textContainer2, .textContainer5 { padding-right: 0px; }
 }

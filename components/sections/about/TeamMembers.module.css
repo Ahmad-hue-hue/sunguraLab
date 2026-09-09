@@ -502,7 +502,7 @@
 
 @media (max-width: 809px) {
   .teamMembers {
-    width: 358px;
+    width: min(100%, 358px);
     height: 3366.09px;
     align-items: center;
     gap: 50px;
@@ -512,26 +512,26 @@
     place-content: center flex-start;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 164.094px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 164.094px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 118.094px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -539,51 +539,51 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 776px;
     max-width: 358px;
-    grid-template-columns: 358px;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: 380px 380px;
   }
   .r16 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .big {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .image {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .r19 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .r20 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .textContainer2 {
-    width: 246px;
+    width: min(100%, 246px);
   }
   .name {
-    width: 246px;
+    width: min(100%, 246px);
   }
   .r24 {
-    width: 246px;
+    width: min(100%, 246px);
   }
   .role {
-    width: 246px;
+    width: min(100%, 246px);
   }
   .r26 {
-    width: 246px;
+    width: min(100%, 246px);
   }
 }

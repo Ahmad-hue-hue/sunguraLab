@@ -1121,30 +1121,30 @@
 
 @media (max-width: 809px) {
   .featuresSection {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1696.69px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 197.688px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 197.688px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 151.688px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -1152,23 +1152,23 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1439px;
   }
   .card {
-    width: 358px;
+    width: min(100%, 358px);
     height: 461px;
   }
   .container {
-    width: 298px;
+    width: min(100%, 298px);
     height: 317.5px;
     flex-direction: column;
     justify-content: flex-start;
@@ -1178,87 +1178,87 @@
     place-content: center flex-start;
   }
   .textContainer2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .heading2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r20 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .paragraph2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r22 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .container2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r39 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .iconLeftRight {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .container3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 928px;
   }
   .subContainer6 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 465.5px;
     flex-direction: column;
   }
   .card2 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .textContainer3 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .heading3 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r53 {
-    width: 298px;
+    width: min(100%, 298px);
     text-align: left;
   }
   .paragraph3 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r55 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .line {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1px;
   }
   .card3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 245px;
   }
   .textContainer4 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 137px;
   }
   .paragraph4 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 102px;
   }
   .r60 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 102px;
   }
   .line2 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .subContainer7 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 461.5px;
     flex-direction: column;
   }
   .card4 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 215.5px;
   }
   .icon4 {
@@ -1274,7 +1274,14 @@
     height: 24px;
   }
   .line3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1px;
   }
+}
+
+/* phone-chip */
+@media (max-width: 809px) {
+  .subContainer3 { width: 100%; }
+  .text3, .r32 { width: 100%; height: auto; white-space: normal; }
+  .text3 { flex-shrink: 1; min-width: 0; }
 }

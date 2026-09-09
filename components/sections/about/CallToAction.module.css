@@ -695,34 +695,34 @@
 
 @media (max-width: 809px) {
   .cta {
-    width: 358px;
+    width: min(100%, 358px);
     height: 358.094px;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 118.094px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     font-size: 28px;
     line-height: 33.6px;
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .r5 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 200px;
     gap: 8px;
     row-gap: 8px;

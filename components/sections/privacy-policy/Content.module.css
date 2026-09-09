@@ -956,7 +956,7 @@
     aspect-ratio: auto 780 / 1200;
   }
   .privacyPolicy {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2898.72px;
     max-width: 560px;
     gap: 50px;
@@ -964,47 +964,47 @@
     column-gap: 50px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 239.594px;
     gap: 30px;
     row-gap: 30px;
     column-gap: 30px;
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 164.094px;
     gap: 8px;
     row-gap: 8px;
     column-gap: 8px;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 120.094px;
     gap: 10px;
     row-gap: 10px;
     column-gap: 10px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r13 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     font-size: 28px;
     line-height: 33.6px;
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .r15 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .subContainer3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2609.12px;
     gap: 30px;
     row-gap: 30px;
@@ -1012,7 +1012,7 @@
     padding-top: 50px;
   }
   .textContainer2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 300.203px;
     gap: 12px;
     row-gap: 12px;
@@ -1020,25 +1020,25 @@
     padding: 30px;
   }
   .heading2 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 24.2031px;
   }
   .r25 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 24.2031px;
     font-size: 22px;
     line-height: 24.2px;
   }
   .paragraph2 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 204px;
   }
   .r27 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 204px;
   }
   .textContainer3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 451.703px;
     gap: 24px;
     row-gap: 24px;
@@ -1046,54 +1046,54 @@
     padding: 30px;
   }
   .textContainer4 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 112.703px;
     gap: 12px;
     row-gap: 12px;
     column-gap: 12px;
   }
   .paragraph3 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 76.5px;
   }
   .r31 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 76.5px;
   }
   .paragraph4 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 255px;
   }
   .r33 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 255px;
   }
   .r34 {
-    width: 267.406px;
+    width: min(100%, 267.406px);
     height: 51px;
   }
   .r35 {
-    width: 267.406px;
+    width: min(100%, 267.406px);
     height: 51px;
   }
   .r36 {
-    width: 267.406px;
+    width: min(100%, 267.406px);
     height: 76.5px;
   }
   .r37 {
-    width: 267.406px;
+    width: min(100%, 267.406px);
     height: 76.5px;
   }
   .r38 {
-    width: 267.406px;
+    width: min(100%, 267.406px);
     height: 76.5px;
   }
   .r39 {
-    width: 267.406px;
+    width: min(100%, 267.406px);
     height: 76.5px;
   }
   .textContainer5 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 351.203px;
     gap: 12px;
     row-gap: 12px;
@@ -1101,11 +1101,11 @@
     padding: 30px;
   }
   .r41 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 255px;
   }
   .textContainer6 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 402.203px;
     gap: 12px;
     row-gap: 12px;
@@ -1113,15 +1113,15 @@
     padding: 30px;
   }
   .paragraph5 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 306px;
   }
   .r44 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 306px;
   }
   .textContainer7 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 325.703px;
     gap: 12px;
     row-gap: 12px;
@@ -1129,15 +1129,15 @@
     padding: 30px;
   }
   .paragraph6 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 229.5px;
   }
   .r47 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 229.5px;
   }
   .textContainer8 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 324.406px;
     gap: 12px;
     row-gap: 12px;
@@ -1145,17 +1145,17 @@
     padding: 30px;
   }
   .heading3 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 48.4062px;
   }
   .r50 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 48.4062px;
     font-size: 22px;
     line-height: 24.2px;
   }
   .textContainer9 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 223.703px;
     gap: 12px;
     row-gap: 12px;
@@ -1163,11 +1163,11 @@
     padding: 30px;
   }
   .paragraph7 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 127.5px;
   }
   .r53 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 127.5px;
   }
 }

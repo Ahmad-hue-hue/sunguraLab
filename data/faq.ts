@@ -2,7 +2,7 @@
  * FAQ content — split per page.
  *
  * All answers are grounded in the real SunguraLabs facts defined in
- * data/site.ts (pricing, process, timeline, support, stack). Nothing here is
+ * data/site.ts (pricing, process, timeline, support). Nothing here is
  * invented.
  */
 
@@ -45,7 +45,7 @@ export const homeFaq: FaqItem[] = [
   {
     question: 'Can you integrate with the tools we already use?',
     answer:
-      'Most likely, yes. Part of the scoping call is mapping your current stack — spreadsheets, CRM, inventory, WhatsApp, booking systems — so the build connects to what you already run.',
+      'Most likely, yes. Part of the scoping call is mapping your current systems — spreadsheets, CRM, inventory, WhatsApp, booking systems — so the build connects to what you already run.',
   },
   {
     question: 'What happens in the scoping call?',
@@ -94,11 +94,6 @@ export const servicesFaq: FaqItem[] = [
     question: 'Can I get a custom web app or SaaS build?',
     answer:
       'Yes. Custom Web Apps & SaaS is a dedicated service with individual quotes — full product builds, API integrations and ongoing maintenance.',
-  },
-  {
-    question: 'What tech stack do you build with?',
-    answer:
-      'React, Next.js, TypeScript, Tailwind CSS, TanStack Query, Supabase, Python, Claude/OpenAI, LangChain, WhatsApp Business API, Vercel, and Stripe/Flutterwave for payments.',
   },
   {
     question: 'How do payments work?',

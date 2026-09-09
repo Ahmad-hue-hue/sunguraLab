@@ -564,33 +564,33 @@
 
 @media (max-width: 809px) {
   .whyChooseUs {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1133.59px;
     align-items: flex-start;
     place-items: flex-start normal;
     place-content: flex-start;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 189.594px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 189.594px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 143.594px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -598,16 +598,16 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .container {
     display: flex;
-    width: 358px;
+    width: min(100%, 358px);
     height: 884px;
     flex-direction: column;
     align-items: flex-start;
@@ -615,55 +615,55 @@
     place-content: flex-start center;
   }
   .r16 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 284px;
   }
   .whyChooseUs2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 284px;
   }
   .textContainer2 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 138px;
   }
   .heading2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r24 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .paragraph2 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 102px;
   }
   .r26 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 102px;
   }
   .r27 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 284px;
   }
   .whyChooseUs3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 284px;
   }
   .textContainer3 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 138px;
   }
   .heading3 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r31 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .paragraph3 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 102px;
   }
   .r33 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 102px;
   }
 }

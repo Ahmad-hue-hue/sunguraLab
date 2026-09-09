@@ -669,33 +669,33 @@
 
 @media (max-width: 809px) {
   .digitalSolutions {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1478.19px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 223.188px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 223.188px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 177.188px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -703,109 +703,120 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1205px;
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1205px;
     justify-content: start;
-    grid-template-columns: 358px;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: 187.5px 187.5px 187.5px 187.5px 187.5px 187.5px;
     place-content: normal start;
   }
   .r17 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 187.5px;
   }
   .big {
-    width: 358px;
+    width: min(100%, 358px);
     height: 187.5px;
     padding: 24px;
   }
   .container2 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 139.5px;
     gap: 16px;
     row-gap: 16px;
     column-gap: 16px;
   }
   .container3 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 30px;
     gap: 10px;
     row-gap: 10px;
     column-gap: 10px;
   }
   .heading2 {
-    width: 270px;
+    width: min(100%, 270px);
     flex-grow: 1;
     flex-basis: 0px;
   }
   .r26 {
-    width: 270px;
+    width: min(100%, 270px);
   }
   .line {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .textContainer2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .paragraph2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r30 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r32 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 187.5px;
   }
   .big2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 187.5px;
     padding: 24px;
   }
   .container4 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 139.5px;
     gap: 16px;
     row-gap: 16px;
     column-gap: 16px;
   }
   .container5 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 30px;
     gap: 10px;
     row-gap: 10px;
     column-gap: 10px;
   }
   .heading3 {
-    width: 270px;
+    width: min(100%, 270px);
     flex-grow: 1;
     flex-basis: 0px;
   }
   .r37 {
-    width: 270px;
+    width: min(100%, 270px);
   }
   .line2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .textContainer3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .paragraph3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r41 {
-    width: 310px;
+    width: min(100%, 310px);
   }
+}
+
+@media (max-width: 810px) {
+  .digitalSolutions { height: auto; }
+  .r2 { height: auto; }
+  .dektop { height: auto; }
+  .textContainer { height: auto; }
+  .subContainer { height: auto; }
+  .container { height: auto; grid-template-rows: none; }
+  .r17, .r32 { height: auto; }
+  .big, .big2 { height: auto; }
 }

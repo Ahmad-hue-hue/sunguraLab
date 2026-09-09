@@ -139,7 +139,7 @@ export default function KeyFeatures() {
                       </div>
                       <div className={styles.paragraph4}>
                         <p className={styles.r45}>
-                          Built on Claude/OpenAI, not templated no-code bots that plateau at basic FAQs.
+                          Built on production-grade AI models with real integrations, not templated no-code bots that plateau at basic FAQs.
                         </p>
                       </div>
                     </div>

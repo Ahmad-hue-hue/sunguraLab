@@ -357,7 +357,7 @@
     aspect-ratio: auto 780 / 1200;
   }
   .container {
-    width: 258px;
+    width: min(100%, 258px);
     height: 281.5px;
     max-width: 258px;
     gap: 16px;
@@ -376,18 +376,18 @@
     letter-spacing: 1.6px;
   }
   .paragraph {
-    width: 258px;
+    width: min(100%, 258px);
     height: 51px;
   }
   .r15 {
-    width: 258px;
+    width: min(100%, 258px);
     height: 51px;
   }
   .r16 {
-    width: 258px;
+    width: min(100%, 258px);
   }
   .iconLeftRight {
-    width: 258px;
+    width: min(100%, 258px);
   }
   .shine {
     right: 260px;

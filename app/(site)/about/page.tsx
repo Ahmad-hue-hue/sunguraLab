@@ -7,7 +7,6 @@ import TeamMembers from '@/components/sections/about/TeamMembers';
 import OurCulture from '@/components/sections/about/OurCulture';
 import Excellence from '@/components/sections/about/Excellence';
 import Testimonials from '@/components/sections/about/Testimonials';
-import Careers from '@/components/sections/about/Careers';
 import CallToAction from '@/components/sections/about/CallToAction';
 
 export const metadata: Metadata = {
@@ -34,7 +33,6 @@ export default function AboutPage() {
         <OurCulture />
         <Excellence />
         <Testimonials />
-        <Careers />
         <CallToAction />
       </div>
     </>

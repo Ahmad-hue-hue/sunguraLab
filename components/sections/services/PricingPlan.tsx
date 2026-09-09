@@ -514,7 +514,7 @@ export default function PricingPlan() {
                         </div>
                         <div className={styles.text5}>
                           <p className={styles.r54}>
-                            Built on Claude/OpenAI + LangChain
+                            Built on production-grade AI models
                           </p>
                         </div>
                       </div>

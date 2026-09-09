@@ -2,7 +2,6 @@ import BenefitsSection from './BenefitsSection';
 import OurSolutionSection from './OurSolutionSection';
 import FeaturesSection from './FeaturesSection';
 import WhyChooseUs from './WhyChooseUs';
-import OurExpertise from './OurExpertise';
 import AboutSection from './AboutSection';
 import Benefits from './Benefits';
 import DigitalSolutions from './DigitalSolutions';
@@ -24,7 +23,6 @@ export default function HomeSections() {
         <OurSolutionSection />
         <FeaturesSection />
         <WhyChooseUs />
-        <OurExpertise />
         <AboutSection />
         <Benefits />
         <DigitalSolutions />

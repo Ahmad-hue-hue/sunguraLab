@@ -581,33 +581,33 @@
 
 @media (max-width: 809px) {
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1406.19px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 223.188px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 223.188px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 177.188px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -615,43 +615,43 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1133px;
     gap: 20px;
     row-gap: 20px;
     column-gap: 20px;
   }
   .image {
-    width: 358px;
+    width: min(100%, 358px);
     height: 300px;
   }
   .r17 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 300px;
   }
   .r18 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 300px;
   }
   .container2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 813px;
   }
   .subContainer2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 406px;
     flex-direction: column;
   }
   .card {
-    width: 358px;
+    width: min(100%, 358px);
     height: 202.5px;
     gap: 16px;
     row-gap: 16px;
@@ -659,26 +659,26 @@
     padding: 24px;
   }
   .textContainer2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .heading2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r27 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .paragraph2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r29 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .line {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1px;
   }
   .card2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 202.5px;
     gap: 16px;
     row-gap: 16px;
@@ -686,16 +686,16 @@
     padding: 24px;
   }
   .textContainer3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .paragraph3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r34 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .line2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1px;
   }
 }

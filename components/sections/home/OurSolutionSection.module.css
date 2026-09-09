@@ -1119,30 +1119,30 @@
 
 @media (max-width: 809px) {
   .ourSolutionSection {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2502.69px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 223.188px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 223.188px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 177.188px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -1150,46 +1150,46 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2219.5px;
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1349.5px;
   }
   .r17 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 413.5px;
   }
   .desktop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 413.5px;
     padding: 30px 30px 200px 30px;
   }
   .textContainer2 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 111.5px;
   }
   .heading2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r25 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .paragraph2 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 76.5px;
   }
   .r27 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 76.5px;
   }
   .image {
@@ -1197,141 +1197,161 @@
     right: 47px;
     bottom: -169px;
     left: 30px;
-    width: 281px;
+    width: min(100%, 281px);
     height: 337px;
   }
   .r29 {
-    width: 281px;
+    width: min(100%, 281px);
     height: 337px;
   }
   .r30 {
-    width: 281px;
+    width: min(100%, 281px);
     height: 337px;
   }
   .subContainer2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 920px;
   }
   .container2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 452px;
     flex-direction: column;
   }
   .r33 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .noImage {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .textContainer3 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .heading3 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r37 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .paragraph3 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r39 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r40 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .container3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 452px;
     flex-direction: column;
   }
   .r42 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .noImage2 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .textContainer4 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .heading4 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r46 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r47 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .container4 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 854px;
   }
   .subContainer3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 450px;
     flex-direction: column;
   }
   .r50 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .noImage3 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .textContainer5 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .heading5 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r54 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .paragraph4 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r56 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r57 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 388px;
   }
   .tablet {
-    width: 358px;
+    width: min(100%, 358px);
     height: 388px;
     padding: 30px 30px 200px 30px;
   }
   .textContainer6 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .heading6 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r61 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .paragraph5 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r63 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .image2 {
     top: 220px;
     right: 47px;
     bottom: -169px;
     left: 30px;
-    width: 281px;
+    width: min(100%, 281px);
     height: 337px;
   }
   .r65 {
-    width: 281px;
+    width: min(100%, 281px);
     height: 337px;
   }
   .r66 {
-    width: 281px;
+    width: min(100%, 281px);
     height: 337px;
+  }
+}
+
+/* phone-fix: constrict OurSolution desktop-card fixed-width text children */
+@media (max-width: 809px) {
+  .textContainer2, .heading2, .r25, .paragraph2, .r27 {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    padding-right: 0 !important;
+  }
+  .textContainer2 { height: auto; gap: 6px; }
+  .heading2, .r25 { height: auto; }
+  .textContainer6 {
+    padding-right: 0 !important;
+    width: min(100%, 298px) !important;
+  }
+  .heading6, .r61, .paragraph5, .r63 {
+    width: min(100%, 298px) !important;
+    min-width: 0;
   }
 }

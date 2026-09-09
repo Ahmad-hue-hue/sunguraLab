@@ -5,7 +5,6 @@ import Services from './Services';
 import PricingPlan from './PricingPlan';
 import Comparison from './Comparison';
 import KeyFeatures from './KeyFeatures';
-import Payment from './Payment';
 import Benefits from './Benefits';
 import Faq from './Faq';
 import Process from './Process';
@@ -21,7 +20,6 @@ export default function ServicesSections() {
         <PricingPlan />
         <Comparison />
         <KeyFeatures />
-        <Payment />
         <Benefits />
         <Faq />
         <Process />

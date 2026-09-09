@@ -6,8 +6,8 @@ import Reveal from '@/components/motion/Reveal';
 import styles from './Hero.module.css';
 
 /**
- * Homepage hero: rating badge, headline, CTA, stat row and a looping
- * client-logo marquee, over a fading pattern with two drifting glow sprites.
+ * Homepage hero: rating badge, headline, CTA and stat row, over a fading
+ * pattern with two drifting glow sprites.
  *
  * Server component. Only the headline reveal opts into the client, via Reveal.
  */
@@ -104,25 +104,6 @@ export default function Hero() {
                 </div>
               ))}
             </dl>
-          </div>
-
-          <div className={styles.marquee}>
-            <p className={styles.marqueeTitle}>{hero.marquee.title}</p>
-            <div className={styles.marqueeViewport}>
-              {/* Two identical halves make the -50% loop seamless. */}
-              <div className={styles.marqueeTrack}>
-                {[...hero.marquee.logos, ...hero.marquee.logos].map((logo, i) => (
-                  <Image
-                    key={i}
-                    src={logo.src}
-                    alt={i < hero.marquee.logos.length ? logo.alt : ''}
-                    width={135}
-                    height={45}
-                    aria-hidden={i >= hero.marquee.logos.length}
-                  />
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </div>

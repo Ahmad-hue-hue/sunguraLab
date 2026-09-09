@@ -5,7 +5,6 @@ import TeamMembers from './TeamMembers';
 import OurCulture from './OurCulture';
 import Excellence from './Excellence';
 import Testimonials from './Testimonials';
-import Careers from './Careers';
 import CallToAction from './CallToAction';
 
 export default function AboutSections() {
@@ -19,7 +18,6 @@ export default function AboutSections() {
         <OurCulture />
         <Excellence />
         <Testimonials />
-        <Careers />
         <CallToAction />
       </div>
     </>

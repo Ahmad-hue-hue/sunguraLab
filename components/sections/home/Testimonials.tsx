@@ -171,12 +171,12 @@ export default function Testimonials() {
                   <div className={styles.variant1} data-border="true">
                     <div className={styles.tittle}>
                       <p className={styles.r21}>
-                        Claude/OpenAI, not no-code
+                        AI models, not no-code
                       </p>
                     </div>
                     <div className={styles.text2}>
                       <p className={styles.r23}>
-                        Built on Claude/OpenAI, not templated no-code bots that plateau at basic FAQs.
+                        Built on production-grade AI models with real integrations, not templated no-code bots that plateau at basic FAQs.
                       </p>
                     </div>
                     <div className={styles.line} />

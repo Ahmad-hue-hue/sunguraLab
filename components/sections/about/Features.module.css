@@ -582,33 +582,33 @@
 
 @media (max-width: 809px) {
   .features {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1500.09px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 164.094px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 164.094px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 118.094px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -616,25 +616,25 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1286px;
-    grid-template-columns: 358px;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: 218px 218px 192.5px 192.5px 192.5px 192.5px;
   }
   .r16 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 218px;
   }
   .medium {
-    width: 358px;
+    width: min(100%, 358px);
     height: 218px;
     gap: 16px;
     row-gap: 16px;
@@ -642,29 +642,29 @@
     padding: 24px;
   }
   .container {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .heading2 {
-    width: 246px;
+    width: min(100%, 246px);
   }
   .r24 {
-    width: 246px;
+    width: min(100%, 246px);
   }
   .container2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .paragraph2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r27 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r28 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 192.5px;
   }
   .medium2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 192.5px;
     gap: 16px;
     row-gap: 16px;
@@ -672,22 +672,22 @@
     padding: 24px;
   }
   .container3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .heading3 {
-    width: 246px;
+    width: min(100%, 246px);
   }
   .r32 {
-    width: 246px;
+    width: min(100%, 246px);
   }
   .container4 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .paragraph3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r35 {
-    width: 310px;
+    width: min(100%, 310px);
   }
 }
 

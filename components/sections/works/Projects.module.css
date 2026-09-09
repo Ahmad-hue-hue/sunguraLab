@@ -1272,33 +1272,33 @@
 
 @media (max-width: 809px) {
   .projects {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1322.09px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 189.594px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 189.594px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 143.594px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -1306,30 +1306,30 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .r15 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 902.5px;
   }
   .desktop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 902.5px;
   }
   .r17 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 809px;
-    grid-template-columns: 358px;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: 396.5px 396.5px;
   }
   .r85 {
     position: relative;
-    width: 358px;
+    width: min(100%, 358px);
     height: 396.5px;
     align-self: start;
     flex-shrink: 0;
@@ -1338,7 +1338,7 @@
   .openImage14 {
     display: flex;
     position: relative;
-    width: 358px;
+    width: min(100%, 358px);
     height: 396.5px;
     flex-direction: column;
     justify-content: flex-start;
@@ -1364,7 +1364,7 @@
   .imageContainer4 {
     display: flex;
     position: relative;
-    width: 310px;
+    width: min(100%, 310px);
     height: 250px;
     justify-content: center;
     align-items: flex-end;
@@ -1391,12 +1391,12 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    width: 310px;
+    width: min(100%, 310px);
     height: 250px;
     border-radius: 12px;
   }
   .r89 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 250px;
     overflow: clip;
     overflow-x: clip;
@@ -1407,7 +1407,7 @@
   .tabsContainer3 {
     display: flex;
     position: relative;
-    width: 260px;
+    width: min(100%, 260px);
     height: 68px;
     justify-content: flex-start;
     align-items: flex-start;
@@ -1506,7 +1506,7 @@
   .textContainer5 {
     display: flex;
     position: relative;
-    width: 310px;
+    width: min(100%, 310px);
     height: 70.5px;
     flex-direction: column;
     justify-content: flex-start;
@@ -1521,7 +1521,7 @@
   .container4 {
     display: flex;
     position: relative;
-    width: 310px;
+    width: min(100%, 310px);
     height: 37.5px;
     justify-content: space-between;
     align-items: center;
@@ -1639,7 +1639,7 @@
   .paragraph5 {
     display: flex;
     position: relative;
-    width: 310px;
+    width: min(100%, 310px);
     height: 27px;
     flex-direction: column;
     justify-content: flex-start;
@@ -1649,7 +1649,7 @@
     word-break: break-word;
   }
   .r111 {
-    width: 310px;
+    width: min(100%, 310px);
     height: 27px;
     color: rgb(150, 151, 156);
     font-family: "Rethink Sans", "Rethink Sans Placeholder", sans-serif;
@@ -1681,3 +1681,13 @@
 @media (min-width: 1320px) { .onlyTablet, .onlyPhone { display: none !important; } }
 @media (min-width: 810px) and (max-width: 1319px) { .onlyDesktop, .onlyPhone { display: none !important; } }
 @media (max-width: 809px) { .onlyDesktop, .onlyTablet { display: none !important; } }
+
+@media (max-width: 810px) {
+  .projects { height: auto; }
+  .r2 { height: auto; }
+  .dektop { height: auto; }
+  .r15, .desktop { height: auto; }
+  .r17 { height: auto; grid-template-rows: none; }
+  .r85, .openImage14 { height: auto; }
+  .imageContainer4, .r88, .r89 { height: auto; }
+}

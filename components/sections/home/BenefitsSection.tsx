@@ -153,7 +153,7 @@ export default function BenefitsSection() {
                   </div>
                   <div className={styles.paragraph2}>
                     <p className={styles.r26}>
-                      We build on Claude and OpenAI with real integrations, not templated no-code FAQ bots.
+                      We build on production-grade AI models with real integrations, not templated no-code FAQ bots.
                     </p>
                   </div>
                 </div>

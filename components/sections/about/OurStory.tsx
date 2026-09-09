@@ -84,12 +84,12 @@ export default function OurStory() {
                 <div className={styles.container3}>
                   <div className={styles.heading2}>
                     <h3 className={styles.r23}>
-                      12 tools across our stack
+                      Fixed prices, 1–4 weeks to ship
                     </h3>
                   </div>
                   <div className={styles.text2}>
                     <p className={styles.r25}>
-                      React, Next.js, TypeScript, Supabase, Python and Claude/OpenAI are among the twelve tools behind every build.
+                      Most builds ship in 1–4 weeks at a fixed price agreed up front — priced for East African businesses, with optional $200/mo support after launch.
                     </p>
                   </div>
                 </div>

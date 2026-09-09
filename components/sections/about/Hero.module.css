@@ -959,24 +959,24 @@
     aspect-ratio: auto 780 / 1200;
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 398.234px;
     max-width: 560px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 235.188px;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 189.188px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
   }
   .r15 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
     font-size: 28px;
     line-height: 33.6px;
@@ -1051,36 +1051,36 @@
     height: 33.5938px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .r36 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 102px;
   }
   .r60 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 113.047px;
   }
   .big1 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 113.047px;
     aspect-ratio: 3.16667 / 1;
   }
   .image3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 113.047px;
   }
   .r63 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 113.047px;
   }
   .r64 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 113.047px;
   }
   .image {
-    width: 358px;
+    width: min(100%, 358px);
     height: 113.047px;
   }
   .indicatorContainer {
@@ -1102,22 +1102,22 @@
     height: 8px;
   }
   .container3 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .heading2 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .r71 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .r72 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .r73 {
-    width: 358px;
+    width: min(100%, 358px);
   }
   .r74 {
-    width: 358px;
+    width: min(100%, 358px);
     transform: matrix(1, 0, 0, 1, -75.501, 0);
   }
   .r83 {

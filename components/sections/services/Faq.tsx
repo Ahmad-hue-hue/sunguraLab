@@ -202,44 +202,6 @@ export default function Faq() {
                       </div>
                     </div>
                   </div>
-                  <div className={styles.line} />
-                  <div className={styles.r33}>
-                    <div className={styles.bigClosed2}>
-                      <div className={styles.container3}>
-                        <div
-                          className={`${styles.question2} ${styles.faqRow}`}
-                          role="button"
-                          tabIndex={0}
-                          aria-expanded={faqOpen === 'What tech stack do you build with?'}
-                          onClick={() => setFaqOpen(faqOpen === 'What tech stack do you build with?' ? null : 'What tech stack do you build with?')}
-                          onKeyDown={(e) => {
-                            if (e.key === 'Enter' || e.key === ' ') {
-                              e.preventDefault();
-                              setFaqOpen(faqOpen === 'What tech stack do you build with?' ? null : 'What tech stack do you build with?');
-                            }
-                          }}
-                        >
-                          <div className={styles.r37}>
-                            <h3 className={styles.r38}>
-                              What tech stack do you build with?
-                            </h3>
-                          </div>
-                          <div className={styles.iconContainer}>
-                            <div className={`${styles.plusIcon} ${faqOpen === 'What tech stack do you build with?' ? styles.faqIconOpen : ''}`}>
-                              <div className={styles.r30}>
-                                <Image className={styles.r31} src="/assets/media/leohuAtxHXf3P9ABFpoZKAm5U.svg" alt="Plus Icon" width={24} height={24} />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        {faqOpen === 'What tech stack do you build with?' && (
-                          <p className={styles.faqAnswer}>
-                            {'React, Next.js, TypeScript, Tailwind CSS, TanStack Query, Supabase, Python, Claude/OpenAI, LangChain, WhatsApp Business API, Vercel, and Stripe/Flutterwave for payments.'}
-                          </p>
-                        )}
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -363,44 +325,6 @@ export default function Faq() {
                         {faqOpen === 'Do you charge hourly?' && (
                           <p className={styles.faqAnswer}>
                             {'No hourly billing \u2014 you pay a fixed price per project, agreed and confirmed up front.'}
-                          </p>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                  <div className={styles.line} />
-                  <div className={styles.r33}>
-                    <div className={styles.bigClosed2}>
-                      <div className={styles.container3}>
-                        <div
-                          className={`${styles.question2} ${styles.faqRow}`}
-                          role="button"
-                          tabIndex={0}
-                          aria-expanded={faqOpen === 'Which payment providers do you support?'}
-                          onClick={() => setFaqOpen(faqOpen === 'Which payment providers do you support?' ? null : 'Which payment providers do you support?')}
-                          onKeyDown={(e) => {
-                            if (e.key === 'Enter' || e.key === ' ') {
-                              e.preventDefault();
-                              setFaqOpen(faqOpen === 'Which payment providers do you support?' ? null : 'Which payment providers do you support?');
-                            }
-                          }}
-                        >
-                          <div className={styles.r42}>
-                            <h3 className={styles.r43}>
-                              Which payment providers do you support?
-                            </h3>
-                          </div>
-                          <div className={styles.iconContainer}>
-                            <div className={`${styles.plusIcon} ${faqOpen === 'Which payment providers do you support?' ? styles.faqIconOpen : ''}`}>
-                              <div className={styles.r30}>
-                                <Image className={styles.r31} src="/assets/media/leohuAtxHXf3P9ABFpoZKAm5U.svg" alt="Plus Icon" width={24} height={24} />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        {faqOpen === 'Which payment providers do you support?' && (
-                          <p className={styles.faqAnswer}>
-                            {'Payments are handled via Stripe and Flutterwave.'}
                           </p>
                         )}
                       </div>

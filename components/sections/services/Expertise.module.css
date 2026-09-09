@@ -733,30 +733,30 @@
 
 @media (max-width: 809px) {
   .expertise {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1063.09px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 215.094px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 215.094px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 169.094px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -764,16 +764,16 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 127.5px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 127.5px;
   }
   .subContainer {
     display: flex;
-    width: 358px;
+    width: min(100%, 358px);
     height: 788px;
     flex-direction: column;
     justify-content: flex-start;
@@ -782,7 +782,7 @@
     place-content: flex-start;
   }
   .card {
-    width: 358px;
+    width: min(100%, 358px);
     height: 252px;
     gap: 24px;
     row-gap: 24px;
@@ -790,31 +790,31 @@
     padding: 24px;
   }
   .container {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .subContainer2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .heading2 {
-    width: 274px;
+    width: min(100%, 274px);
   }
   .r23 {
-    width: 274px;
+    width: min(100%, 274px);
   }
   .paragraph2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r25 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r26 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .hoverArrow {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .card2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 252px;
     gap: 24px;
     row-gap: 24px;
@@ -822,30 +822,30 @@
     padding: 24px;
   }
   .container2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .subContainer3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .heading3 {
-    width: 274px;
+    width: min(100%, 274px);
   }
   .r37 {
-    width: 274px;
+    width: min(100%, 274px);
   }
   .paragraph3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r39 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r40 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .hoverArrow2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .subContainer4 {
-    width: 310px;
+    width: min(100%, 310px);
   }
 }

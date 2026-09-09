@@ -784,33 +784,33 @@
 
 @media (max-width: 809px) {
   .testimonials {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2517.69px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 197.688px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 197.688px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 151.688px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -818,58 +818,58 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .r15 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2270px;
   }
   .desktop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2270px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 2270px;
-    grid-template-columns: 358px;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: 365px 365px 365px 365px 365px 365px;
     grid-auto-rows: min-content;
   }
   .r18 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 365px;
   }
   .variant1 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 365px;
   }
   .tittle {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r21 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .text2 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 153px;
   }
   .r23 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 153px;
   }
   .line {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .container2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .textContainer2 {
     width: 176px;
@@ -887,32 +887,32 @@
     width: 176px;
   }
   .r39 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 365px;
   }
   .variant12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 365px;
   }
   .tittle2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .r42 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .text3 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 153px;
   }
   .r44 {
-    width: 298px;
+    width: min(100%, 298px);
     height: 153px;
   }
   .line2 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .container3 {
-    width: 298px;
+    width: min(100%, 298px);
   }
   .textContainer3 {
     width: 176px;
@@ -929,4 +929,16 @@
   .r51 {
     width: 176px;
   }
+}
+
+@media (max-width: 810px) {
+  .testimonials { height: auto; }
+  .r2 { height: auto; }
+  .dektop { height: auto; }
+  .textContainer { height: auto; }
+  .r15, .desktop, .container { height: auto; }
+  .container { grid-template-rows: none; }
+  .r18, .r39 { height: auto; }
+  .variant1, .variant12 { height: auto; }
+  .text2, .text3, .r23, .r44 { height: auto; }
 }

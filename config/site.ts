@@ -72,7 +72,8 @@ export const site: SiteConfig = {
     phone: '',
     address: 'Dar es Salaam, Tanzania',
     bookingUrl: '/contact',
-    mapEmbedUrl: '',
+    mapEmbedUrl:
+      'https://maps.google.com/maps?q=Dar%20es%20Salaam%2C%20Tanzania&t=&z=12&ie=UTF8&iwloc=&output=embed',
   },
 
   cta: {

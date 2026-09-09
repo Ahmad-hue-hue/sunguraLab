@@ -656,7 +656,7 @@
 
 @media (max-width: 809px) {
   .cta {
-    width: 358px;
+    width: min(100%, 358px);
     height: 616.797px;
     padding: 50px 20px;
     border-radius: 16px;
@@ -676,15 +676,15 @@
     right: 40px;
     bottom: 95.25px;
     left: -283px;
-    width: 601px;
+    width: min(100%, 601px);
     height: 191.547px;
   }
   .r9 {
-    width: 601px;
+    width: min(100%, 601px);
     height: 191.547px;
   }
   .r10 {
-    width: 601px;
+    width: min(100%, 601px);
     height: 191.547px;
   }
   .image2 {
@@ -692,50 +692,50 @@
     right: -283px;
     bottom: 95.25px;
     left: 40px;
-    width: 601px;
+    width: min(100%, 601px);
     height: 191.547px;
   }
   .r12 {
-    width: 601px;
+    width: min(100%, 601px);
     height: 191.547px;
   }
   .subContainer {
-    width: 318px;
+    width: min(100%, 318px);
     height: 369.594px;
   }
   .container {
-    width: 318px;
+    width: min(100%, 318px);
     height: 203.594px;
   }
   .textContainer {
-    width: 318px;
+    width: min(100%, 318px);
     height: 147.594px;
   }
   .heading {
-    width: 318px;
+    width: min(100%, 318px);
     height: 33.5938px;
   }
   .r23 {
-    width: 318px;
+    width: min(100%, 318px);
     height: 33.5938px;
     font-size: 28px;
     line-height: 33.6px;
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 318px;
+    width: min(100%, 318px);
     height: 102px;
   }
   .r25 {
-    width: 318px;
+    width: min(100%, 318px);
     height: 102px;
   }
   .tabsContainer {
-    width: 318px;
+    width: min(100%, 318px);
     height: 136px;
   }
   .r37 {
-    width: 318px;
+    width: min(100%, 318px);
     height: 117.203px;
     flex-direction: column;
     gap: 16px;
@@ -743,19 +743,19 @@
     column-gap: 16px;
   }
   .r38 {
-    width: 318px;
+    width: min(100%, 318px);
   }
   .r39 {
-    width: 318px;
+    width: min(100%, 318px);
   }
   .r40 {
-    width: 318px;
+    width: min(100%, 318px);
     text-align: center;
   }
   .r41 {
-    width: 318px;
+    width: min(100%, 318px);
   }
   .default {
-    width: 318px;
+    width: min(100%, 318px);
   }
 }

@@ -164,7 +164,7 @@ export const whyUs: WhyItem[] = [
   },
   {
     title: 'Production-grade AI, not no-code toys',
-    body: 'Built on Claude/OpenAI, not templated no-code bots that plateau at basic FAQs.',
+    body: 'Built on production-grade AI models with real integrations, not templated no-code bots that plateau at basic FAQs.',
   },
   {
     title: 'We understand East African workflows',
@@ -203,44 +203,6 @@ export const threeReasons: Reason[] = [
   },
 ];
 
-export interface BuildCard {
-  num: string;
-  category: string;
-  title: string;
-  description: string;
-}
-
-export const buildCards: BuildCard[] = [
-  {
-    num: '01',
-    category: 'AI Chatbot',
-    title: 'Conversational AI, every channel',
-    description:
-      'Chatbots wired to your inventory, bookings or CRM — on WhatsApp, Instagram and your site. Every answer grounded in your real data.',
-  },
-  {
-    num: '02',
-    category: 'Internal Tools',
-    title: 'Automation that never sleeps',
-    description:
-      'Connect your data to an AI layer that summarises activity, flags anomalies and auto-generates reports. Your team stops doing it by hand.',
-  },
-  {
-    num: '03',
-    category: 'Data Processing',
-    title: 'Reporting that writes itself',
-    description:
-      'Invoices, receipts and contracts become structured, usable data automatically — cutting the manual entry that costs $15–40 per invoice.',
-  },
-  {
-    num: '04',
-    category: 'RAG Assistant',
-    title: 'Answers from your own docs',
-    description:
-      'Your company\u2019s documents become a queryable AI assistant. Answers grounded in your knowledge, not the open internet.',
-  },
-];
-
 export interface Step {
   step: string;
   title: string;
@@ -275,21 +237,6 @@ export const process: Step[] = [
   },
 ];
 
-export const tools = [
-  'React',
-  'Next.js',
-  'TypeScript',
-  'Tailwind CSS',
-  'TanStack Query',
-  'Supabase',
-  'Python',
-  'Claude / OpenAI',
-  'LangChain',
-  'WhatsApp Business API',
-  'Vercel',
-  'Stripe / Flutterwave',
-];
-
 export interface Client {
   title: string;
   body: string;
@@ -318,7 +265,7 @@ export const team: Founder[] = [
   {
     name: 'Ahmad',
     role: 'Development & Technical Architecture',
-    bio: 'A full-stack developer based in Dar es Salaam, working across React, Next.js, TypeScript, Supabase and Python in production settings, with additional experience in PHP, MySQL and Django.',
+    bio: 'A full-stack developer based in Dar es Salaam, building AI-integrated software in production — from chatbots to automation — grounded in the systems his clients already run.',
     focus: ['Development', 'Technical architecture', 'AI integration', 'Infrastructure'],
     photo: '/images/team-ahmad.jpg',
   },

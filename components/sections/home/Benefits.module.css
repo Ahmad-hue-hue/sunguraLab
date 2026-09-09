@@ -634,33 +634,33 @@
 
 @media (max-width: 809px) {
   .benefits {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1705.19px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 172.188px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 172.188px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 126.188px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -668,16 +668,16 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 51px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 51px;
   }
   .subContainer {
     display: flex;
-    width: 358px;
+    width: min(100%, 358px);
     height: 1483px;
     flex-direction: column;
     align-items: center;
@@ -685,77 +685,77 @@
     place-content: center;
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 585.5px;
   }
   .r17 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 184.5px;
   }
   .benefitsCard {
-    width: 358px;
+    width: min(100%, 358px);
     height: 184.5px;
     padding: 24px;
   }
   .container2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .heading2 {
-    width: 278px;
+    width: min(100%, 278px);
   }
   .r24 {
-    width: 278px;
+    width: min(100%, 278px);
   }
   .line {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .paragraph2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r27 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .image {
-    width: 358px;
+    width: min(100%, 358px);
     height: 280px;
   }
   .r29 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 280px;
   }
   .r30 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 280px;
   }
   .container3 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 585.5px;
   }
   .r32 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 184.5px;
   }
   .benefitsCard2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 184.5px;
     padding: 24px;
   }
   .container4 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .heading3 {
-    width: 278px;
+    width: min(100%, 278px);
   }
   .r37 {
-    width: 278px;
+    width: min(100%, 278px);
   }
   .line2 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .paragraph3 {
-    width: 310px;
+    width: min(100%, 310px);
   }
   .r40 {
-    width: 310px;
+    width: min(100%, 310px);
   }
 }

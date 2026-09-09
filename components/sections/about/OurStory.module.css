@@ -587,33 +587,33 @@
 
 @media (max-width: 809px) {
   .ourStory {
-    width: 358px;
+    width: min(100%, 358px);
     height: 1191.09px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 164.094px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 164.094px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 118.094px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 33.5938px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -621,19 +621,19 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 76.5px;
   }
   .container {
-    width: 358px;
+    width: min(100%, 358px);
     height: 977px;
   }
   .subContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 977px;
     gap: 12px;
     row-gap: 12px;
@@ -642,14 +642,14 @@
     flex-basis: 0px;
   }
   .container2 {
-    width: 312px;
+    width: min(100%, 312px);
     height: 977px;
     flex-direction: column;
     flex-grow: 1;
     flex-basis: 0px;
   }
   .card {
-    width: 312px;
+    width: min(100%, 312px);
     height: 315px;
     gap: 24px;
     row-gap: 24px;
@@ -657,34 +657,34 @@
     padding: 24px;
   }
   .number {
-    width: 264px;
+    width: min(100%, 264px);
   }
   .r20 {
-    width: 264px;
+    width: min(100%, 264px);
   }
   .container3 {
-    width: 264px;
+    width: min(100%, 264px);
     height: 189px;
     gap: 6px;
     row-gap: 6px;
     column-gap: 6px;
   }
   .heading2 {
-    width: 264px;
+    width: min(100%, 264px);
   }
   .r23 {
-    width: 264px;
+    width: min(100%, 264px);
   }
   .text2 {
-    width: 264px;
+    width: min(100%, 264px);
     height: 153px;
   }
   .r25 {
-    width: 264px;
+    width: min(100%, 264px);
     height: 153px;
   }
   .card2 {
-    width: 312px;
+    width: min(100%, 312px);
     height: 315px;
     gap: 24px;
     row-gap: 24px;
@@ -692,30 +692,30 @@
     padding: 24px;
   }
   .number2 {
-    width: 264px;
+    width: min(100%, 264px);
   }
   .r28 {
-    width: 264px;
+    width: min(100%, 264px);
   }
   .container4 {
-    width: 264px;
+    width: min(100%, 264px);
     height: 189px;
     gap: 6px;
     row-gap: 6px;
     column-gap: 6px;
   }
   .heading3 {
-    width: 264px;
+    width: min(100%, 264px);
   }
   .r31 {
-    width: 264px;
+    width: min(100%, 264px);
   }
   .text3 {
-    width: 264px;
+    width: min(100%, 264px);
     height: 153px;
   }
   .r33 {
-    width: 264px;
+    width: min(100%, 264px);
     height: 153px;
   }
   .progressBar {

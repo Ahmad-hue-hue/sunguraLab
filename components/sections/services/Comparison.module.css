@@ -811,33 +811,33 @@
 
 @media (max-width: 809px) {
   .comparison {
-    width: 358px;
+    width: min(100%, 358px);
     height: 973.688px;
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
   }
   .r2 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 248.688px;
   }
   .dektop {
-    width: 358px;
+    width: min(100%, 358px);
     height: 248.688px;
     justify-content: center;
     place-content: center;
   }
   .textContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 202.688px;
     max-width: 900px;
   }
   .heading {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
   }
   .r12 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 67.1875px;
     color: rgb(245, 245, 247);
     font-size: 28px;
@@ -845,19 +845,19 @@
     letter-spacing: 0.56px;
   }
   .paragraph {
-    width: 358px;
+    width: min(100%, 358px);
     height: 127.5px;
   }
   .r14 {
-    width: 358px;
+    width: min(100%, 358px);
     height: 127.5px;
   }
   .strokeContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 675px;
   }
   .scrollContainer {
-    width: 358px;
+    width: min(100%, 358px);
     height: 675px;
     justify-content: flex-start;
     place-content: center flex-start;
